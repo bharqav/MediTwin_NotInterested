@@ -1,0 +1,22 @@
+[
+  {"name": "Metformin", "class": "Antidiabetic", "persona_focus": "Lakshmi"},
+  {"name": "Ibuprofen", "class": "NSAID", "persona_focus": "Aarav"},
+  {"name": "Warfarin", "class": "Anticoagulant", "persona_focus": "Lakshmi"},
+  {"name": "Acetaminophen", "class": "Analgesic", "persona_focus": "Ishaan"},
+  {"name": "Lisinopril", "class": "ACE Inhibitor", "persona_focus": "Lakshmi"},
+  {"name": "Amoxicillin", "class": "Antibiotic", "persona_focus": "Aarav"},
+  {"name": "Atorvastatin", "class": "Statin", "persona_focus": "Lakshmi"},
+  {"name": "Albuterol", "class": "Bronchodilator", "persona_focus": "Ishaan"},
+  {"name": "Omeprazole", "class": "Proton Pump Inhibitor", "persona_focus": "Aarav"},
+  {"name": "Clarithromycin", "class": "Macrolide Antibiotic", "persona_focus": "Lakshmi"},
+  {"name": "Morphine", "class": "Opioid", "persona_focus": "Ishaan"},
+  {"name": "Levothyroxine", "class": "Thyroid Hormone", "persona_focus": "Lakshmi"},
+  {"name": "Gabapentin", "class": "Neuropathic Analgesic", "persona_focus": "Ishaan"},
+  {"name": "Prednisone", "class": "Corticosteroid", "persona_focus": "Ishaan"},
+  {"name": "Doxycycline", "class": "Antibiotic", "persona_focus": "Aarav"},
+  {"name": "Citalopram", "class": "SSRI", "persona_focus": "Lakshmi"},
+  {"name": "Amlodipine", "class": "Calcium Channel Blocker", "persona_focus": "Lakshmi"},
+  {"name": "Naproxen", "class": "NSAID", "persona_focus": "Aarav"},
+  {"name": "Salbutamol", "class": "Beta2 Agonist", "persona_focus": "Ishaan"},
+  {"name": "Methotrexate", "class": "DMARD", "persona_focus": "Ishaan"}
+]

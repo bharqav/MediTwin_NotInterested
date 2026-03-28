@@ -1,0 +1,13 @@
+# Copy to backend/.env and frontend/.env.local — use YOUR OWN values only locally.
+# Do not commit filled copies. This bundle ships with no secrets.
+
+# --- Backend (FastAPI) ---
+# GROQ_API_KEY=          # optional LLM enrichment; get from Groq console if needed
+# CORS_ORIGINS=http://localhost:3000
+# ALLOWED_HOSTS=localhost,127.0.0.1,*
+# PORT=8000
+# UVICORN_WORKERS=2
+# LOG_LEVEL=INFO
+
+# --- Frontend (Next.js) ---
+# NEXT_PUBLIC_API_URL=http://127.0.0.1:8000

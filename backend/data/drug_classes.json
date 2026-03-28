@@ -1,0 +1,2760 @@
+[
+  {
+    "class_id": "nsaid",
+    "class_name": "NSAID (Non-Steroidal Anti-Inflammatory Drug)",
+    "member_drugs": [
+      "Ibuprofen",
+      "Naproxen",
+      "Diclofenac",
+      "Celecoxib",
+      "Aspirin"
+    ],
+    "primary_metabolism": "CYP2C9",
+    "primary_excretion": "renal",
+    "renal_sensitivity": 0.85,
+    "hepatic_sensitivity": 0.6,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.55,
+        "onset_hours": 0.5,
+        "peak_hours": 1.5
+      },
+      "kidneys": {
+        "base_score": 0.45,
+        "onset_hours": 1,
+        "peak_hours": 3
+      },
+      "liver": {
+        "base_score": 0.2,
+        "onset_hours": 1.5,
+        "peak_hours": 4
+      },
+      "bloodstream": {
+        "base_score": 0.65,
+        "onset_hours": 0.5,
+        "peak_hours": 1.5
+      },
+      "heart": {
+        "base_score": 0.15,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "lungs": {
+        "base_score": 0.05,
+        "onset_hours": 3,
+        "peak_hours": 6
+      },
+      "brain": {
+        "base_score": 0.1,
+        "onset_hours": 1,
+        "peak_hours": 2
+      },
+      "skin": {
+        "base_score": 0.05,
+        "onset_hours": 3,
+        "peak_hours": 6
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "GI irritation",
+        "base_probability": 0.65,
+        "renal_amplifier": 1.1,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "GI bleed (rare)",
+        "base_probability": 0.05,
+        "renal_amplifier": 1.2,
+        "hepatic_amplifier": 1.3
+      },
+      {
+        "effect": "Renal stress",
+        "base_probability": 0.3,
+        "renal_amplifier": 2.8,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Fluid retention",
+        "base_probability": 0.2,
+        "renal_amplifier": 1.8,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Hypertension elevation",
+        "base_probability": 0.18,
+        "renal_amplifier": 1.5,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Platelet inhibition",
+        "base_probability": 0.7,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Hepatotoxicity (rare)",
+        "base_probability": 0.03,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 3.5
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "ace_inhibitor",
+        "mechanism": "NSAIDs reduce prostaglandin-mediated renal vasodilation, counteracting ACE inhibitor renoprotective effects",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "anticoagulant_warfarin",
+        "mechanism": "NSAIDs inhibit platelet aggregation + may displace warfarin from protein binding (CYP2C9)",
+        "severity": "severe",
+        "cyp_pathway": "CYP2C9"
+      },
+      {
+        "interacts_with_class": "diuretic_loop",
+        "mechanism": "NSAIDs reduce prostaglandin synthesis, blunting diuretic efficacy",
+        "severity": "mild",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "biguanide_metformin",
+        "mechanism": "NSAIDs reduce renal prostaglandin synthesis, impairing renal blood flow and potentially reducing metformin clearance, increasing lactic acidosis risk",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "dmard_methotrexate",
+        "mechanism": "NSAIDs reduce renal clearance of methotrexate, significantly increasing serum methotrexate levels and risk of bone marrow suppression and hepatotoxicity",
+        "severity": "severe",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "ckd_stage_3_plus",
+        "type": "relative",
+        "reason": "Risk of acute kidney injury"
+      },
+      {
+        "condition": "ckd_stage_4_plus",
+        "type": "absolute",
+        "reason": "Severe risk of AKI in advanced CKD"
+      },
+      {
+        "condition": "active_gi_bleed",
+        "type": "absolute",
+        "reason": "NSAIDs damage gastric mucosa"
+      },
+      {
+        "condition": "pregnancy_trimester3",
+        "type": "absolute",
+        "reason": "Risk of premature ductus arteriosus closure"
+      },
+      {
+        "condition": "aspirin_allergy",
+        "type": "absolute",
+        "reason": "Cross-reactivity in aspirin-exacerbated respiratory disease"
+      }
+    ],
+    "typical_half_life_hours": 2.1,
+    "typical_peak_hours": 1.5,
+    "typical_clearance_hours": 12
+  },
+  {
+    "class_id": "ace_inhibitor",
+    "class_name": "ACE Inhibitor",
+    "member_drugs": [
+      "Lisinopril",
+      "Enalapril",
+      "Ramipril",
+      "Captopril",
+      "Perindopril"
+    ],
+    "primary_metabolism": "hepatic",
+    "primary_excretion": "renal",
+    "renal_sensitivity": 0.9,
+    "hepatic_sensitivity": 0.4,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.1,
+        "onset_hours": 1,
+        "peak_hours": 3
+      },
+      "kidneys": {
+        "base_score": 0.35,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "liver": {
+        "base_score": 0.15,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "bloodstream": {
+        "base_score": 0.4,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "heart": {
+        "base_score": 0.3,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "lungs": {
+        "base_score": 0.15,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "brain": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "skin": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 8
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Dry cough",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Hyperkalemia",
+        "base_probability": 0.1,
+        "renal_amplifier": 2.5,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Hypotension",
+        "base_probability": 0.2,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Angioedema (rare)",
+        "base_probability": 0.02,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Dizziness",
+        "base_probability": 0.18,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Renal impairment",
+        "base_probability": 0.08,
+        "renal_amplifier": 2.2,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "nsaid",
+        "mechanism": "NSAIDs counteract ACE inhibitor renoprotective effects",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "diuretic_loop",
+        "mechanism": "Enhanced hypotensive effect, risk of first-dose hypotension",
+        "severity": "mild",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "antidiabetic_sulfonylurea",
+        "mechanism": "ACE inhibitors may enhance hypoglycemic effect",
+        "severity": "mild",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "pregnancy_trimester3",
+        "type": "absolute",
+        "reason": "Fetotoxic \u2014 causes renal dysgenesis"
+      },
+      {
+        "condition": "ckd_stage_4_plus",
+        "type": "relative",
+        "reason": "Monitor potassium closely"
+      }
+    ],
+    "typical_half_life_hours": 12,
+    "typical_peak_hours": 6,
+    "typical_clearance_hours": 24
+  },
+  {
+    "class_id": "anticoagulant_warfarin",
+    "class_name": "Anticoagulant (Warfarin)",
+    "member_drugs": [
+      "Warfarin"
+    ],
+    "primary_metabolism": "CYP2C9",
+    "primary_excretion": "hepatic",
+    "renal_sensitivity": 0.3,
+    "hepatic_sensitivity": 0.95,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.15,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "kidneys": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 8
+      },
+      "liver": {
+        "base_score": 0.4,
+        "onset_hours": 1,
+        "peak_hours": 6
+      },
+      "bloodstream": {
+        "base_score": 0.8,
+        "onset_hours": 0.5,
+        "peak_hours": 3
+      },
+      "heart": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 8
+      },
+      "lungs": {
+        "base_score": 0.05,
+        "onset_hours": 3,
+        "peak_hours": 12
+      },
+      "brain": {
+        "base_score": 0.15,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "skin": {
+        "base_score": 0.2,
+        "onset_hours": 2,
+        "peak_hours": 6
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Bleeding risk",
+        "base_probability": 0.45,
+        "renal_amplifier": 1.2,
+        "hepatic_amplifier": 2.5
+      },
+      {
+        "effect": "Bruising",
+        "base_probability": 0.55,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Hemorrhage (rare)",
+        "base_probability": 0.04,
+        "renal_amplifier": 1.5,
+        "hepatic_amplifier": 3.0
+      },
+      {
+        "effect": "Skin necrosis (rare)",
+        "base_probability": 0.01,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Hair loss",
+        "base_probability": 0.05,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "GI upset",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "nsaid",
+        "mechanism": "Additive bleeding risk from platelet inhibition + protein displacement",
+        "severity": "severe",
+        "cyp_pathway": "CYP2C9"
+      },
+      {
+        "interacts_with_class": "antibiotic_macrolide",
+        "mechanism": "Macrolides inhibit CYP3A4, increasing warfarin levels",
+        "severity": "severe",
+        "cyp_pathway": "CYP3A4"
+      },
+      {
+        "interacts_with_class": "statin",
+        "mechanism": "Some statins compete for CYP metabolism, increasing warfarin effect",
+        "severity": "moderate",
+        "cyp_pathway": "CYP3A4"
+      },
+      {
+        "interacts_with_class": "antibiotic_fluoroquinolone",
+        "mechanism": "Fluoroquinolones may enhance anticoagulant effect",
+        "severity": "moderate",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "active_gi_bleed",
+        "type": "absolute",
+        "reason": "Warfarin dramatically increases bleed severity"
+      },
+      {
+        "condition": "liver_disease",
+        "type": "relative",
+        "reason": "Impaired synthesis of clotting factors"
+      }
+    ],
+    "typical_half_life_hours": 40,
+    "typical_peak_hours": 4,
+    "typical_clearance_hours": 96
+  },
+  {
+    "class_id": "antibiotic_macrolide",
+    "class_name": "Macrolide Antibiotic",
+    "member_drugs": [
+      "Azithromycin",
+      "Clarithromycin",
+      "Erythromycin"
+    ],
+    "primary_metabolism": "CYP3A4",
+    "primary_excretion": "hepatic",
+    "renal_sensitivity": 0.35,
+    "hepatic_sensitivity": 0.8,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.4,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "kidneys": {
+        "base_score": 0.15,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "liver": {
+        "base_score": 0.35,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "bloodstream": {
+        "base_score": 0.5,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "heart": {
+        "base_score": 0.2,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "lungs": {
+        "base_score": 0.25,
+        "onset_hours": 1,
+        "peak_hours": 3
+      },
+      "brain": {
+        "base_score": 0.05,
+        "onset_hours": 3,
+        "peak_hours": 8
+      },
+      "skin": {
+        "base_score": 0.1,
+        "onset_hours": 3,
+        "peak_hours": 8
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "GI disturbance",
+        "base_probability": 0.55,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "QT prolongation",
+        "base_probability": 0.08,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.5
+      },
+      {
+        "effect": "Hepatotoxicity",
+        "base_probability": 0.06,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 2.8
+      },
+      {
+        "effect": "Nausea",
+        "base_probability": 0.4,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Diarrhea",
+        "base_probability": 0.35,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Abdominal pain",
+        "base_probability": 0.25,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "anticoagulant_warfarin",
+        "mechanism": "CYP3A4 inhibition increases warfarin levels significantly",
+        "severity": "severe",
+        "cyp_pathway": "CYP3A4"
+      },
+      {
+        "interacts_with_class": "statin",
+        "mechanism": "CYP3A4 inhibition increases statin levels, rhabdomyolysis risk",
+        "severity": "severe",
+        "cyp_pathway": "CYP3A4"
+      },
+      {
+        "interacts_with_class": "benzodiazepine",
+        "mechanism": "CYP3A4 inhibition increases benzodiazepine sedation",
+        "severity": "moderate",
+        "cyp_pathway": "CYP3A4"
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "liver_disease",
+        "type": "relative",
+        "reason": "Risk of cholestatic hepatitis"
+      }
+    ],
+    "typical_half_life_hours": 68,
+    "typical_peak_hours": 2.5,
+    "typical_clearance_hours": 72
+  },
+  {
+    "class_id": "antibiotic_fluoroquinolone",
+    "class_name": "Fluoroquinolone Antibiotic",
+    "member_drugs": [
+      "Ciprofloxacin",
+      "Levofloxacin",
+      "Moxifloxacin"
+    ],
+    "primary_metabolism": "CYP1A2",
+    "primary_excretion": "renal",
+    "renal_sensitivity": 0.75,
+    "hepatic_sensitivity": 0.45,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.3,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "kidneys": {
+        "base_score": 0.3,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "liver": {
+        "base_score": 0.2,
+        "onset_hours": 1.5,
+        "peak_hours": 5
+      },
+      "bloodstream": {
+        "base_score": 0.55,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "heart": {
+        "base_score": 0.15,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "lungs": {
+        "base_score": 0.2,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "brain": {
+        "base_score": 0.15,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "skin": {
+        "base_score": 0.15,
+        "onset_hours": 2,
+        "peak_hours": 6
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Tendinopathy",
+        "base_probability": 0.08,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "GI upset",
+        "base_probability": 0.35,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "QT prolongation",
+        "base_probability": 0.06,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "CNS effects",
+        "base_probability": 0.12,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Photosensitivity",
+        "base_probability": 0.1,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Nausea",
+        "base_probability": 0.3,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "anticoagulant_warfarin",
+        "mechanism": "May enhance anticoagulant effect",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "nsaid",
+        "mechanism": "Increased CNS stimulation and seizure risk",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "biguanide_metformin",
+        "mechanism": "Altered glucose metabolism",
+        "severity": "mild",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "pregnancy_trimester3",
+        "type": "absolute",
+        "reason": "Risk of cartilage damage in fetus"
+      }
+    ],
+    "typical_half_life_hours": 4,
+    "typical_peak_hours": 1.5,
+    "typical_clearance_hours": 18
+  },
+  {
+    "class_id": "antibiotic_penicillin",
+    "class_name": "Penicillin Antibiotic",
+    "member_drugs": [
+      "Amoxicillin",
+      "Ampicillin",
+      "Penicillin V",
+      "Amoxicillin-Clavulanate"
+    ],
+    "primary_metabolism": "minimal",
+    "primary_excretion": "renal",
+    "renal_sensitivity": 0.7,
+    "hepatic_sensitivity": 0.2,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.25,
+        "onset_hours": 0.5,
+        "peak_hours": 1.5
+      },
+      "kidneys": {
+        "base_score": 0.2,
+        "onset_hours": 1,
+        "peak_hours": 3
+      },
+      "liver": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 5
+      },
+      "bloodstream": {
+        "base_score": 0.45,
+        "onset_hours": 0.5,
+        "peak_hours": 1.5
+      },
+      "heart": {
+        "base_score": 0.05,
+        "onset_hours": 3,
+        "peak_hours": 8
+      },
+      "lungs": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 5
+      },
+      "brain": {
+        "base_score": 0.05,
+        "onset_hours": 3,
+        "peak_hours": 8
+      },
+      "skin": {
+        "base_score": 0.15,
+        "onset_hours": 2,
+        "peak_hours": 5
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Diarrhea",
+        "base_probability": 0.25,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Nausea",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Rash",
+        "base_probability": 0.1,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Allergic reaction",
+        "base_probability": 0.08,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Anaphylaxis (rare)",
+        "base_probability": 0.01,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "C. diff colitis",
+        "base_probability": 0.03,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "anticoagulant_warfarin",
+        "mechanism": "May enhance anticoagulant effect by altering gut flora vitamin K",
+        "severity": "mild",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "aspirin_allergy",
+        "type": "relative",
+        "reason": "Cross-sensitivity possible in beta-lactam allergy"
+      },
+      {
+        "condition": "penicillin_allergy",
+        "type": "absolute",
+        "reason": "Documented penicillin allergy — risk of anaphylaxis with beta-lactam antibiotics"
+      }
+    ],
+    "typical_half_life_hours": 1.5,
+    "typical_peak_hours": 1.5,
+    "typical_clearance_hours": 8
+  },
+  {
+    "class_id": "beta_blocker",
+    "class_name": "Beta Blocker",
+    "member_drugs": [
+      "Metoprolol",
+      "Atenolol",
+      "Propranolol",
+      "Bisoprolol",
+      "Carvedilol"
+    ],
+    "primary_metabolism": "CYP2D6",
+    "primary_excretion": "hepatic",
+    "renal_sensitivity": 0.4,
+    "hepatic_sensitivity": 0.75,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.05,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "kidneys": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "liver": {
+        "base_score": 0.2,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "bloodstream": {
+        "base_score": 0.5,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "heart": {
+        "base_score": 0.55,
+        "onset_hours": 0.5,
+        "peak_hours": 3
+      },
+      "lungs": {
+        "base_score": 0.15,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "brain": {
+        "base_score": 0.2,
+        "onset_hours": 1,
+        "peak_hours": 3
+      },
+      "skin": {
+        "base_score": 0.05,
+        "onset_hours": 3,
+        "peak_hours": 8
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Bradycardia",
+        "base_probability": 0.25,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Fatigue",
+        "base_probability": 0.3,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Hypotension",
+        "base_probability": 0.2,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Cold extremities",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Depression",
+        "base_probability": 0.08,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Bronchospasm",
+        "base_probability": 0.05,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "calcium_channel_blocker",
+        "mechanism": "Additive cardiac depression \u2014 risk of severe bradycardia",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "biguanide_metformin",
+        "mechanism": "May mask hypoglycemia symptoms",
+        "severity": "mild",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "ssri",
+        "mechanism": "CYP2D6 inhibition by some SSRIs increases beta-blocker levels",
+        "severity": "moderate",
+        "cyp_pathway": "CYP2D6"
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "asthma",
+        "type": "relative",
+        "reason": "Risk of bronchospasm"
+      },
+      {
+        "condition": "heart_failure",
+        "type": "relative",
+        "reason": "May worsen acute decompensated HF"
+      }
+    ],
+    "typical_half_life_hours": 5,
+    "typical_peak_hours": 2,
+    "typical_clearance_hours": 16
+  },
+  {
+    "class_id": "calcium_channel_blocker",
+    "class_name": "Calcium Channel Blocker",
+    "member_drugs": [
+      "Amlodipine",
+      "Nifedipine",
+      "Diltiazem",
+      "Verapamil"
+    ],
+    "primary_metabolism": "CYP3A4",
+    "primary_excretion": "hepatic",
+    "renal_sensitivity": 0.3,
+    "hepatic_sensitivity": 0.8,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.05,
+        "onset_hours": 1,
+        "peak_hours": 6
+      },
+      "kidneys": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 8
+      },
+      "liver": {
+        "base_score": 0.25,
+        "onset_hours": 1,
+        "peak_hours": 6
+      },
+      "bloodstream": {
+        "base_score": 0.55,
+        "onset_hours": 0.5,
+        "peak_hours": 3
+      },
+      "heart": {
+        "base_score": 0.5,
+        "onset_hours": 0.5,
+        "peak_hours": 4
+      },
+      "lungs": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 8
+      },
+      "brain": {
+        "base_score": 0.15,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "skin": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 8
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Peripheral edema",
+        "base_probability": 0.25,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Headache",
+        "base_probability": 0.2,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Flushing",
+        "base_probability": 0.18,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Dizziness",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Constipation",
+        "base_probability": 0.12,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Bradycardia",
+        "base_probability": 0.08,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "beta_blocker",
+        "mechanism": "Additive cardiac depression",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "statin",
+        "mechanism": "CYP3A4 competition increases statin levels",
+        "severity": "mild",
+        "cyp_pathway": "CYP3A4"
+      },
+      {
+        "interacts_with_class": "antibiotic_macrolide",
+        "mechanism": "CYP3A4 competition increases CCB levels",
+        "severity": "moderate",
+        "cyp_pathway": "CYP3A4"
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "heart_failure",
+        "type": "relative",
+        "reason": "Negative inotropic effect may worsen HF"
+      }
+    ],
+    "typical_half_life_hours": 35,
+    "typical_peak_hours": 8,
+    "typical_clearance_hours": 72
+  },
+  {
+    "class_id": "diuretic_loop",
+    "class_name": "Loop Diuretic",
+    "member_drugs": [
+      "Furosemide",
+      "Bumetanide",
+      "Torsemide"
+    ],
+    "primary_metabolism": "minimal",
+    "primary_excretion": "renal",
+    "renal_sensitivity": 0.9,
+    "hepatic_sensitivity": 0.25,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.1,
+        "onset_hours": 0.5,
+        "peak_hours": 1
+      },
+      "kidneys": {
+        "base_score": 0.6,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "liver": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "bloodstream": {
+        "base_score": 0.45,
+        "onset_hours": 0.5,
+        "peak_hours": 1.5
+      },
+      "heart": {
+        "base_score": 0.25,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "lungs": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "brain": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "skin": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 8
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Electrolyte imbalance",
+        "base_probability": 0.45,
+        "renal_amplifier": 1.8,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Dehydration",
+        "base_probability": 0.3,
+        "renal_amplifier": 1.5,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Hypokalemia",
+        "base_probability": 0.4,
+        "renal_amplifier": 1.3,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Ototoxicity",
+        "base_probability": 0.03,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Hypotension",
+        "base_probability": 0.25,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Muscle cramps",
+        "base_probability": 0.2,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "ace_inhibitor",
+        "mechanism": "Enhanced hypotension, especially first dose",
+        "severity": "mild",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "nsaid",
+        "mechanism": "NSAIDs blunt diuretic efficacy",
+        "severity": "mild",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "anticoagulant_warfarin",
+        "mechanism": "Dehydration may concentrate warfarin",
+        "severity": "mild",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "ckd_stage_4_plus",
+        "type": "relative",
+        "reason": "May be needed but requires careful monitoring"
+      }
+    ],
+    "typical_half_life_hours": 2,
+    "typical_peak_hours": 1,
+    "typical_clearance_hours": 8
+  },
+  {
+    "class_id": "diuretic_thiazide",
+    "class_name": "Thiazide Diuretic",
+    "member_drugs": [
+      "Hydrochlorothiazide",
+      "Chlorthalidone",
+      "Indapamide"
+    ],
+    "primary_metabolism": "minimal",
+    "primary_excretion": "renal",
+    "renal_sensitivity": 0.8,
+    "hepatic_sensitivity": 0.2,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.1,
+        "onset_hours": 1,
+        "peak_hours": 3
+      },
+      "kidneys": {
+        "base_score": 0.5,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "liver": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "bloodstream": {
+        "base_score": 0.4,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "heart": {
+        "base_score": 0.2,
+        "onset_hours": 1.5,
+        "peak_hours": 6
+      },
+      "lungs": {
+        "base_score": 0.05,
+        "onset_hours": 3,
+        "peak_hours": 8
+      },
+      "brain": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "skin": {
+        "base_score": 0.1,
+        "onset_hours": 3,
+        "peak_hours": 8
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Hyponatremia",
+        "base_probability": 0.2,
+        "renal_amplifier": 1.5,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Hypokalemia",
+        "base_probability": 0.3,
+        "renal_amplifier": 1.3,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Hyperuricemia",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Glucose elevation",
+        "base_probability": 0.12,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Photosensitivity",
+        "base_probability": 0.08,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Dizziness",
+        "base_probability": 0.18,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "nsaid",
+        "mechanism": "NSAIDs reduce diuretic efficacy",
+        "severity": "mild",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "ace_inhibitor",
+        "mechanism": "Enhanced hypotension",
+        "severity": "mild",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "biguanide_metformin",
+        "mechanism": "May worsen glucose control",
+        "severity": "mild",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "ckd_stage_4_plus",
+        "type": "relative",
+        "reason": "Reduced efficacy with low GFR"
+      }
+    ],
+    "typical_half_life_hours": 10,
+    "typical_peak_hours": 4,
+    "typical_clearance_hours": 24
+  },
+  {
+    "class_id": "statin",
+    "class_name": "Statin (HMG-CoA Reductase Inhibitor)",
+    "member_drugs": [
+      "Atorvastatin",
+      "Rosuvastatin",
+      "Simvastatin",
+      "Pravastatin",
+      "Lovastatin"
+    ],
+    "primary_metabolism": "CYP3A4",
+    "primary_excretion": "hepatic",
+    "renal_sensitivity": 0.25,
+    "hepatic_sensitivity": 0.9,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "kidneys": {
+        "base_score": 0.1,
+        "onset_hours": 3,
+        "peak_hours": 8
+      },
+      "liver": {
+        "base_score": 0.4,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "bloodstream": {
+        "base_score": 0.35,
+        "onset_hours": 1,
+        "peak_hours": 3
+      },
+      "heart": {
+        "base_score": 0.15,
+        "onset_hours": 3,
+        "peak_hours": 8
+      },
+      "lungs": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 12
+      },
+      "brain": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 12
+      },
+      "skin": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 12
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Myalgia",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Rhabdomyolysis (rare)",
+        "base_probability": 0.01,
+        "renal_amplifier": 1.5,
+        "hepatic_amplifier": 2.0
+      },
+      {
+        "effect": "Hepatotoxicity",
+        "base_probability": 0.05,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 3.0
+      },
+      {
+        "effect": "GI upset",
+        "base_probability": 0.12,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Headache",
+        "base_probability": 0.08,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Elevated liver enzymes",
+        "base_probability": 0.08,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 2.5
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "antibiotic_macrolide",
+        "mechanism": "CYP3A4 inhibition dramatically increases statin levels",
+        "severity": "severe",
+        "cyp_pathway": "CYP3A4"
+      },
+      {
+        "interacts_with_class": "calcium_channel_blocker",
+        "mechanism": "CYP3A4 competition increases statin exposure",
+        "severity": "mild",
+        "cyp_pathway": "CYP3A4"
+      },
+      {
+        "interacts_with_class": "anticoagulant_warfarin",
+        "mechanism": "CYP competition may increase anticoagulant effect",
+        "severity": "moderate",
+        "cyp_pathway": "CYP3A4"
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "liver_disease",
+        "type": "absolute",
+        "reason": "Active liver disease is absolute contraindication"
+      },
+      {
+        "condition": "pregnancy_trimester3",
+        "type": "absolute",
+        "reason": "Teratogenic risk"
+      }
+    ],
+    "typical_half_life_hours": 14,
+    "typical_peak_hours": 2,
+    "typical_clearance_hours": 36
+  },
+  {
+    "class_id": "biguanide_metformin",
+    "class_name": "Biguanide (Metformin)",
+    "member_drugs": [
+      "Metformin"
+    ],
+    "primary_metabolism": "none",
+    "primary_excretion": "renal",
+    "renal_sensitivity": 0.95,
+    "hepatic_sensitivity": 0.15,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.35,
+        "onset_hours": 0.5,
+        "peak_hours": 2.5
+      },
+      "kidneys": {
+        "base_score": 0.3,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "liver": {
+        "base_score": 0.15,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "bloodstream": {
+        "base_score": 0.4,
+        "onset_hours": 0.5,
+        "peak_hours": 2.5
+      },
+      "heart": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "lungs": {
+        "base_score": 0.05,
+        "onset_hours": 3,
+        "peak_hours": 8
+      },
+      "brain": {
+        "base_score": 0.05,
+        "onset_hours": 3,
+        "peak_hours": 8
+      },
+      "skin": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 8
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "GI upset",
+        "base_probability": 0.5,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Diarrhea",
+        "base_probability": 0.35,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Lactic acidosis (rare)",
+        "base_probability": 0.01,
+        "renal_amplifier": 4.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Nausea",
+        "base_probability": 0.3,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "B12 deficiency",
+        "base_probability": 0.06,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Metallic taste",
+        "base_probability": 0.1,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "nsaid",
+        "mechanism": "NSAIDs may reduce renal function, increasing metformin accumulation",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "ace_inhibitor",
+        "mechanism": "ACE inhibitors may enhance hypoglycemic effect",
+        "severity": "mild",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "diuretic_loop",
+        "mechanism": "Dehydration increases lactic acidosis risk",
+        "severity": "moderate",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "ckd_stage_4_plus",
+        "type": "absolute",
+        "reason": "Lactic acidosis risk with eGFR <30"
+      },
+      {
+        "condition": "liver_disease",
+        "type": "relative",
+        "reason": "Impaired lactate clearance"
+      }
+    ],
+    "typical_half_life_hours": 5,
+    "typical_peak_hours": 2.5,
+    "typical_clearance_hours": 18
+  },
+  {
+    "class_id": "ssri",
+    "class_name": "SSRI (Selective Serotonin Reuptake Inhibitor)",
+    "member_drugs": [
+      "Sertraline",
+      "Fluoxetine",
+      "Escitalopram",
+      "Paroxetine",
+      "Citalopram"
+    ],
+    "primary_metabolism": "CYP2D6",
+    "primary_excretion": "hepatic",
+    "renal_sensitivity": 0.25,
+    "hepatic_sensitivity": 0.8,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.2,
+        "onset_hours": 1,
+        "peak_hours": 6
+      },
+      "kidneys": {
+        "base_score": 0.1,
+        "onset_hours": 3,
+        "peak_hours": 8
+      },
+      "liver": {
+        "base_score": 0.25,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "bloodstream": {
+        "base_score": 0.4,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "heart": {
+        "base_score": 0.15,
+        "onset_hours": 2,
+        "peak_hours": 8
+      },
+      "lungs": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 12
+      },
+      "brain": {
+        "base_score": 0.55,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "skin": {
+        "base_score": 0.1,
+        "onset_hours": 3,
+        "peak_hours": 8
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Nausea",
+        "base_probability": 0.3,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Sexual dysfunction",
+        "base_probability": 0.25,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Insomnia",
+        "base_probability": 0.18,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Weight gain",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Serotonin syndrome (rare)",
+        "base_probability": 0.02,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "GI upset",
+        "base_probability": 0.22,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Headache",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "opioid",
+        "mechanism": "Risk of serotonin syndrome with tramadol",
+        "severity": "severe",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "nsaid",
+        "mechanism": "Increased GI bleeding risk",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "anticoagulant_warfarin",
+        "mechanism": "SSRIs impair platelet function, additive bleeding risk",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "beta_blocker",
+        "mechanism": "CYP2D6 inhibition increases beta-blocker levels",
+        "severity": "moderate",
+        "cyp_pathway": "CYP2D6"
+      }
+    ],
+    "contraindications": [],
+    "typical_half_life_hours": 26,
+    "typical_peak_hours": 6,
+    "typical_clearance_hours": 72
+  },
+  {
+    "class_id": "benzodiazepine",
+    "class_name": "Benzodiazepine",
+    "member_drugs": [
+      "Diazepam",
+      "Lorazepam",
+      "Alprazolam",
+      "Clonazepam",
+      "Midazolam"
+    ],
+    "primary_metabolism": "CYP3A4",
+    "primary_excretion": "hepatic",
+    "renal_sensitivity": 0.2,
+    "hepatic_sensitivity": 0.9,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.05,
+        "onset_hours": 0.5,
+        "peak_hours": 1.5
+      },
+      "kidneys": {
+        "base_score": 0.05,
+        "onset_hours": 3,
+        "peak_hours": 8
+      },
+      "liver": {
+        "base_score": 0.2,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "bloodstream": {
+        "base_score": 0.45,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "heart": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "lungs": {
+        "base_score": 0.1,
+        "onset_hours": 1,
+        "peak_hours": 3
+      },
+      "brain": {
+        "base_score": 0.65,
+        "onset_hours": 0.5,
+        "peak_hours": 1.5
+      },
+      "skin": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 8
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Sedation",
+        "base_probability": 0.6,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Cognitive impairment",
+        "base_probability": 0.3,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Respiratory depression",
+        "base_probability": 0.08,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Dependence",
+        "base_probability": 0.2,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Falls risk",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Paradoxical agitation",
+        "base_probability": 0.05,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "opioid",
+        "mechanism": "Additive CNS and respiratory depression \u2014 potentially fatal",
+        "severity": "severe",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "antibiotic_macrolide",
+        "mechanism": "CYP3A4 inhibition increases benzodiazepine levels",
+        "severity": "moderate",
+        "cyp_pathway": "CYP3A4"
+      },
+      {
+        "interacts_with_class": "ssri",
+        "mechanism": "Additive CNS depression",
+        "severity": "mild",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "liver_disease",
+        "type": "relative",
+        "reason": "Prolonged sedation due to impaired metabolism"
+      }
+    ],
+    "typical_half_life_hours": 30,
+    "typical_peak_hours": 1.5,
+    "typical_clearance_hours": 72
+  },
+  {
+    "class_id": "opioid",
+    "class_name": "Opioid Analgesic",
+    "member_drugs": [
+      "Morphine",
+      "Oxycodone",
+      "Codeine",
+      "Tramadol",
+      "Fentanyl",
+      "Hydrocodone"
+    ],
+    "primary_metabolism": "CYP3A4",
+    "primary_excretion": "hepatic",
+    "renal_sensitivity": 0.6,
+    "hepatic_sensitivity": 0.9,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.25,
+        "onset_hours": 0.25,
+        "peak_hours": 1
+      },
+      "kidneys": {
+        "base_score": 0.2,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "liver": {
+        "base_score": 0.25,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "bloodstream": {
+        "base_score": 0.55,
+        "onset_hours": 0.25,
+        "peak_hours": 1
+      },
+      "heart": {
+        "base_score": 0.15,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "lungs": {
+        "base_score": 0.2,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "brain": {
+        "base_score": 0.7,
+        "onset_hours": 0.25,
+        "peak_hours": 1
+      },
+      "skin": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Constipation",
+        "base_probability": 0.6,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Nausea",
+        "base_probability": 0.35,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Respiratory depression",
+        "base_probability": 0.1,
+        "renal_amplifier": 1.5,
+        "hepatic_amplifier": 2.0
+      },
+      {
+        "effect": "Sedation",
+        "base_probability": 0.45,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Dependence/tolerance",
+        "base_probability": 0.25,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Pruritus",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "benzodiazepine",
+        "mechanism": "Additive CNS/respiratory depression \u2014 FDA black box warning",
+        "severity": "severe",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "ssri",
+        "mechanism": "Serotonin syndrome risk especially with tramadol",
+        "severity": "severe",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "anticoagulant_warfarin",
+        "mechanism": "Some opioids may enhance anticoagulant effect",
+        "severity": "mild",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "liver_disease",
+        "type": "relative",
+        "reason": "Impaired metabolism prolongs effect"
+      },
+      {
+        "condition": "ckd_stage_4_plus",
+        "type": "relative",
+        "reason": "Active metabolites accumulate"
+      }
+    ],
+    "typical_half_life_hours": 4,
+    "typical_peak_hours": 1,
+    "typical_clearance_hours": 16
+  },
+  {
+    "class_id": "proton_pump_inhibitor",
+    "class_name": "Proton Pump Inhibitor",
+    "member_drugs": [
+      "Omeprazole",
+      "Pantoprazole",
+      "Esomeprazole",
+      "Lansoprazole",
+      "Rabeprazole"
+    ],
+    "primary_metabolism": "CYP2C19",
+    "primary_excretion": "hepatic",
+    "renal_sensitivity": 0.2,
+    "hepatic_sensitivity": 0.65,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.55,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "kidneys": {
+        "base_score": 0.1,
+        "onset_hours": 3,
+        "peak_hours": 8
+      },
+      "liver": {
+        "base_score": 0.2,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "bloodstream": {
+        "base_score": 0.3,
+        "onset_hours": 1,
+        "peak_hours": 3
+      },
+      "heart": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 12
+      },
+      "lungs": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 12
+      },
+      "brain": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 12
+      },
+      "skin": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 12
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Headache",
+        "base_probability": 0.1,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "GI effects",
+        "base_probability": 0.12,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "B12 deficiency",
+        "base_probability": 0.05,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Magnesium depletion",
+        "base_probability": 0.04,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "C. diff risk",
+        "base_probability": 0.03,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Bone fracture risk",
+        "base_probability": 0.02,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "anticoagulant_warfarin",
+        "mechanism": "CYP2C19 inhibition may alter warfarin metabolism",
+        "severity": "mild",
+        "cyp_pathway": "CYP2C19"
+      },
+      {
+        "interacts_with_class": "biguanide_metformin",
+        "mechanism": "May increase metformin absorption",
+        "severity": "mild",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [],
+    "typical_half_life_hours": 1.5,
+    "typical_peak_hours": 2,
+    "typical_clearance_hours": 8
+  },
+  {
+    "class_id": "antidiabetic_sulfonylurea",
+    "class_name": "Sulfonylurea Antidiabetic",
+    "member_drugs": [
+      "Glipizide",
+      "Glyburide",
+      "Glimepiride"
+    ],
+    "primary_metabolism": "CYP2C9",
+    "primary_excretion": "renal",
+    "renal_sensitivity": 0.8,
+    "hepatic_sensitivity": 0.6,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.15,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "kidneys": {
+        "base_score": 0.3,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "liver": {
+        "base_score": 0.2,
+        "onset_hours": 1.5,
+        "peak_hours": 5
+      },
+      "bloodstream": {
+        "base_score": 0.45,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "heart": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "lungs": {
+        "base_score": 0.05,
+        "onset_hours": 3,
+        "peak_hours": 8
+      },
+      "brain": {
+        "base_score": 0.1,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "skin": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 8
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Hypoglycemia",
+        "base_probability": 0.3,
+        "renal_amplifier": 2.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Weight gain",
+        "base_probability": 0.25,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "GI upset",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Skin rash",
+        "base_probability": 0.05,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Hepatotoxicity (rare)",
+        "base_probability": 0.02,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 2.5
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "nsaid",
+        "mechanism": "NSAIDs may potentiate hypoglycemic effect via CYP2C9",
+        "severity": "moderate",
+        "cyp_pathway": "CYP2C9"
+      },
+      {
+        "interacts_with_class": "ace_inhibitor",
+        "mechanism": "Enhanced hypoglycemic effect",
+        "severity": "mild",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "antibiotic_fluoroquinolone",
+        "mechanism": "Altered glucose metabolism",
+        "severity": "moderate",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "ckd_stage_4_plus",
+        "type": "relative",
+        "reason": "Prolonged hypoglycemia risk"
+      },
+      {
+        "condition": "liver_disease",
+        "type": "relative",
+        "reason": "Impaired drug clearance"
+      }
+    ],
+    "typical_half_life_hours": 5,
+    "typical_peak_hours": 2,
+    "typical_clearance_hours": 16
+  },
+  {
+    "class_id": "corticosteroid",
+    "class_name": "Corticosteroid",
+    "member_drugs": [
+      "Prednisone",
+      "Prednisolone",
+      "Dexamethasone",
+      "Hydrocortisone",
+      "Methylprednisolone"
+    ],
+    "primary_metabolism": "CYP3A4",
+    "primary_excretion": "hepatic",
+    "renal_sensitivity": 0.3,
+    "hepatic_sensitivity": 0.7,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.3,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "kidneys": {
+        "base_score": 0.15,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "liver": {
+        "base_score": 0.25,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "bloodstream": {
+        "base_score": 0.55,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "heart": {
+        "base_score": 0.15,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "lungs": {
+        "base_score": 0.2,
+        "onset_hours": 1,
+        "peak_hours": 3
+      },
+      "brain": {
+        "base_score": 0.25,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "skin": {
+        "base_score": 0.2,
+        "onset_hours": 1,
+        "peak_hours": 4
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Hyperglycemia",
+        "base_probability": 0.35,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Weight gain",
+        "base_probability": 0.3,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Insomnia",
+        "base_probability": 0.25,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Mood changes",
+        "base_probability": 0.2,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Osteoporosis",
+        "base_probability": 0.08,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Immunosuppression",
+        "base_probability": 0.4,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Adrenal suppression",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "nsaid",
+        "mechanism": "Additive GI toxicity risk",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "antidiabetic_sulfonylurea",
+        "mechanism": "Corticosteroids antagonize blood glucose control",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "anticoagulant_warfarin",
+        "mechanism": "Variable effect on anticoagulation",
+        "severity": "mild",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "active_gi_bleed",
+        "type": "relative",
+        "reason": "Impairs mucosal healing"
+      }
+    ],
+    "typical_half_life_hours": 3.5,
+    "typical_peak_hours": 2,
+    "typical_clearance_hours": 18
+  },
+  {
+    "class_id": "arb",
+    "class_name": "Angiotensin II Receptor Blocker (ARB)",
+    "member_drugs": [
+      "Losartan",
+      "Valsartan",
+      "Irbesartan",
+      "Telmisartan",
+      "Candesartan",
+      "Olmesartan"
+    ],
+    "primary_metabolism": "CYP2C9",
+    "primary_excretion": "renal",
+    "renal_sensitivity": 0.85,
+    "hepatic_sensitivity": 0.45,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.05,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "kidneys": {
+        "base_score": 0.3,
+        "onset_hours": 1,
+        "peak_hours": 6
+      },
+      "liver": {
+        "base_score": 0.15,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "bloodstream": {
+        "base_score": 0.4,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "heart": {
+        "base_score": 0.25,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "lungs": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 8
+      },
+      "brain": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "skin": {
+        "base_score": 0.05,
+        "onset_hours": 4,
+        "peak_hours": 8
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Hyperkalemia",
+        "base_probability": 0.1,
+        "renal_amplifier": 2.3,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Dizziness",
+        "base_probability": 0.15,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Hypotension",
+        "base_probability": 0.12,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Renal impairment",
+        "base_probability": 0.06,
+        "renal_amplifier": 2.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Headache",
+        "base_probability": 0.1,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Fatigue",
+        "base_probability": 0.08,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "nsaid",
+        "mechanism": "NSAIDs reduce ARB efficacy and increase renal risk",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "diuretic_loop",
+        "mechanism": "Enhanced hypotension",
+        "severity": "mild",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "ace_inhibitor",
+        "mechanism": "Dual RAAS blockade \u2014 hyperkalemia and renal risk",
+        "severity": "severe",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "pregnancy_trimester3",
+        "type": "absolute",
+        "reason": "Fetotoxic"
+      },
+      {
+        "condition": "ckd_stage_4_plus",
+        "type": "relative",
+        "reason": "Monitor potassium and renal function closely"
+      }
+    ],
+    "typical_half_life_hours": 9,
+    "typical_peak_hours": 3,
+    "typical_clearance_hours": 24
+  },
+  {
+    "class_id": "anticoagulant_doac",
+    "class_name": "Direct Oral Anticoagulant (DOAC)",
+    "member_drugs": [
+      "Apixaban",
+      "Rivaroxaban",
+      "Dabigatran",
+      "Edoxaban"
+    ],
+    "primary_metabolism": "CYP3A4",
+    "primary_excretion": "renal",
+    "renal_sensitivity": 0.85,
+    "hepatic_sensitivity": 0.5,
+    "organ_baseline_effects": {
+      "stomach": {
+        "base_score": 0.1,
+        "onset_hours": 0.5,
+        "peak_hours": 3
+      },
+      "kidneys": {
+        "base_score": 0.25,
+        "onset_hours": 1,
+        "peak_hours": 4
+      },
+      "liver": {
+        "base_score": 0.2,
+        "onset_hours": 1.5,
+        "peak_hours": 5
+      },
+      "bloodstream": {
+        "base_score": 0.7,
+        "onset_hours": 0.5,
+        "peak_hours": 2
+      },
+      "heart": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "lungs": {
+        "base_score": 0.05,
+        "onset_hours": 3,
+        "peak_hours": 8
+      },
+      "brain": {
+        "base_score": 0.1,
+        "onset_hours": 2,
+        "peak_hours": 6
+      },
+      "skin": {
+        "base_score": 0.1,
+        "onset_hours": 3,
+        "peak_hours": 8
+      }
+    },
+    "known_side_effects": [
+      {
+        "effect": "Bleeding",
+        "base_probability": 0.3,
+        "renal_amplifier": 2.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "GI bleed",
+        "base_probability": 0.08,
+        "renal_amplifier": 1.5,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Bruising",
+        "base_probability": 0.25,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Anemia",
+        "base_probability": 0.05,
+        "renal_amplifier": 1.3,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Nausea",
+        "base_probability": 0.12,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      },
+      {
+        "effect": "Dyspepsia",
+        "base_probability": 0.1,
+        "renal_amplifier": 1.0,
+        "hepatic_amplifier": 1.0
+      }
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "nsaid",
+        "mechanism": "Additive bleeding risk",
+        "severity": "severe",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "antibiotic_macrolide",
+        "mechanism": "CYP3A4 inhibition increases DOAC levels",
+        "severity": "moderate",
+        "cyp_pathway": "CYP3A4"
+      },
+      {
+        "interacts_with_class": "antidiabetic_sulfonylurea",
+        "mechanism": "Minor CYP interaction",
+        "severity": "mild",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {
+        "condition": "ckd_stage_4_plus",
+        "type": "relative",
+        "reason": "Dose adjustment required, contraindicated in severe CKD"
+      },
+      {
+        "condition": "active_gi_bleed",
+        "type": "absolute",
+        "reason": "Uncontrolled bleeding"
+      }
+    ],
+    "typical_half_life_hours": 12,
+    "typical_peak_hours": 3,
+    "typical_clearance_hours": 30
+  },
+  {
+    "class_id": "analgesic_paracetamol",
+    "class_name": "Analgesic / Antipyretic (Paracetamol)",
+    "member_drugs": ["Paracetamol", "Acetaminophen"],
+    "primary_metabolism": "CYP2E1",
+    "primary_excretion": "hepatic",
+    "renal_sensitivity": 0.15,
+    "hepatic_sensitivity": 0.90,
+    "organ_baseline_effects": {
+      "stomach": {"base_score": 0.08, "onset_hours": 0.5, "peak_hours": 1.0},
+      "kidneys": {"base_score": 0.05, "onset_hours": 1.0, "peak_hours": 3.0},
+      "liver": {"base_score": 0.35, "onset_hours": 1.0, "peak_hours": 4.0},
+      "bloodstream": {"base_score": 0.50, "onset_hours": 0.3, "peak_hours": 1.0},
+      "heart": {"base_score": 0.03, "onset_hours": 2.0, "peak_hours": 4.0},
+      "lungs": {"base_score": 0.02, "onset_hours": 3.0, "peak_hours": 6.0},
+      "brain": {"base_score": 0.30, "onset_hours": 0.3, "peak_hours": 1.0},
+      "skin": {"base_score": 0.02, "onset_hours": 2.0, "peak_hours": 6.0}
+    },
+    "known_side_effects": [
+      {"effect": "Hepatotoxicity (dose-dependent)", "base_probability": 0.05, "renal_amplifier": 1.0, "hepatic_amplifier": 4.0},
+      {"effect": "Nausea", "base_probability": 0.10, "renal_amplifier": 1.0, "hepatic_amplifier": 1.2},
+      {"effect": "Allergic skin reaction", "base_probability": 0.03, "renal_amplifier": 1.0, "hepatic_amplifier": 1.0},
+      {"effect": "Thrombocytopenia (rare)", "base_probability": 0.01, "renal_amplifier": 1.0, "hepatic_amplifier": 1.5},
+      {"effect": "Acute kidney injury (overdose)", "base_probability": 0.02, "renal_amplifier": 2.0, "hepatic_amplifier": 1.0}
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "anticoagulant_warfarin",
+        "mechanism": "Chronic paracetamol use may potentiate warfarin anticoagulant effect via inhibition of vitamin K-dependent clotting factor synthesis",
+        "severity": "mild",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "dmard_methotrexate",
+        "mechanism": "Both are hepatotoxic; combined use increases cumulative liver damage risk, especially with impaired hepatic function",
+        "severity": "moderate",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [
+      {"condition": "liver_disease", "type": "relative", "reason": "Reduced hepatic metabolism increases NAPQI accumulation and toxicity risk"}
+    ],
+    "typical_half_life_hours": 2.5,
+    "typical_peak_hours": 1.0,
+    "typical_clearance_hours": 10
+  },
+  {
+    "class_id": "dmard_methotrexate",
+    "class_name": "DMARD (Methotrexate)",
+    "member_drugs": ["Methotrexate"],
+    "primary_metabolism": "hepatic",
+    "primary_excretion": "renal",
+    "renal_sensitivity": 0.90,
+    "hepatic_sensitivity": 0.80,
+    "organ_baseline_effects": {
+      "stomach": {"base_score": 0.40, "onset_hours": 2.0, "peak_hours": 6.0},
+      "kidneys": {"base_score": 0.30, "onset_hours": 2.0, "peak_hours": 8.0},
+      "liver": {"base_score": 0.55, "onset_hours": 4.0, "peak_hours": 12.0},
+      "bloodstream": {"base_score": 0.60, "onset_hours": 1.0, "peak_hours": 4.0},
+      "heart": {"base_score": 0.05, "onset_hours": 6.0, "peak_hours": 12.0},
+      "lungs": {"base_score": 0.15, "onset_hours": 6.0, "peak_hours": 24.0},
+      "brain": {"base_score": 0.10, "onset_hours": 4.0, "peak_hours": 8.0},
+      "skin": {"base_score": 0.10, "onset_hours": 4.0, "peak_hours": 12.0}
+    },
+    "known_side_effects": [
+      {"effect": "Nausea and vomiting", "base_probability": 0.40, "renal_amplifier": 1.2, "hepatic_amplifier": 1.3},
+      {"effect": "Hepatotoxicity", "base_probability": 0.15, "renal_amplifier": 1.0, "hepatic_amplifier": 3.0},
+      {"effect": "Bone marrow suppression", "base_probability": 0.10, "renal_amplifier": 2.5, "hepatic_amplifier": 1.5},
+      {"effect": "Mouth ulcers", "base_probability": 0.25, "renal_amplifier": 1.5, "hepatic_amplifier": 1.0},
+      {"effect": "Pulmonary toxicity", "base_probability": 0.03, "renal_amplifier": 1.0, "hepatic_amplifier": 1.0}
+    ],
+    "known_interactions": [],
+    "contraindications": [
+      {"condition": "liver_disease", "type": "relative", "reason": "Methotrexate is hepatotoxic; impaired liver increases toxicity risk"},
+      {"condition": "ckd_stage_3_plus", "type": "relative", "reason": "Reduced renal clearance increases methotrexate accumulation and toxicity"}
+    ],
+    "typical_half_life_hours": 6,
+    "typical_peak_hours": 2,
+    "typical_clearance_hours": 24
+  },
+  {
+    "class_id": "beta2_agonist",
+    "class_name": "Beta-2 Agonist Bronchodilator",
+    "member_drugs": ["Salbutamol", "Albuterol", "Terbutaline"],
+    "primary_metabolism": "hepatic",
+    "primary_excretion": "renal",
+    "renal_sensitivity": 0.20,
+    "hepatic_sensitivity": 0.30,
+    "organ_baseline_effects": {
+      "stomach": {"base_score": 0.02, "onset_hours": 0.5, "peak_hours": 1.0},
+      "kidneys": {"base_score": 0.02, "onset_hours": 1.0, "peak_hours": 2.0},
+      "liver": {"base_score": 0.02, "onset_hours": 1.0, "peak_hours": 2.0},
+      "bloodstream": {"base_score": 0.30, "onset_hours": 0.1, "peak_hours": 0.5},
+      "heart": {"base_score": 0.25, "onset_hours": 0.1, "peak_hours": 0.5},
+      "lungs": {"base_score": 0.60, "onset_hours": 0.05, "peak_hours": 0.25},
+      "brain": {"base_score": 0.10, "onset_hours": 0.3, "peak_hours": 1.0},
+      "skin": {"base_score": 0.01, "onset_hours": 1.0, "peak_hours": 2.0}
+    },
+    "known_side_effects": [
+      {"effect": "Tremor", "base_probability": 0.20, "renal_amplifier": 1.0, "hepatic_amplifier": 1.0},
+      {"effect": "Tachycardia", "base_probability": 0.15, "renal_amplifier": 1.0, "hepatic_amplifier": 1.0},
+      {"effect": "Headache", "base_probability": 0.10, "renal_amplifier": 1.0, "hepatic_amplifier": 1.0}
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "beta_blocker",
+        "mechanism": "Beta-blockers antagonize bronchodilatory effects of beta-2 agonists",
+        "severity": "moderate",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [],
+    "typical_half_life_hours": 4,
+    "typical_peak_hours": 0.25,
+    "typical_clearance_hours": 6
+  },
+  {
+    "class_id": "thyroid_hormone",
+    "class_name": "Thyroid Hormone Replacement",
+    "member_drugs": ["Levothyroxine", "Liothyronine"],
+    "primary_metabolism": "hepatic",
+    "primary_excretion": "renal",
+    "renal_sensitivity": 0.10,
+    "hepatic_sensitivity": 0.20,
+    "organ_baseline_effects": {
+      "stomach": {"base_score": 0.05, "onset_hours": 1.0, "peak_hours": 4.0},
+      "kidneys": {"base_score": 0.02, "onset_hours": 2.0, "peak_hours": 6.0},
+      "liver": {"base_score": 0.05, "onset_hours": 2.0, "peak_hours": 6.0},
+      "bloodstream": {"base_score": 0.30, "onset_hours": 1.0, "peak_hours": 4.0},
+      "heart": {"base_score": 0.15, "onset_hours": 2.0, "peak_hours": 6.0},
+      "lungs": {"base_score": 0.02, "onset_hours": 4.0, "peak_hours": 12.0},
+      "brain": {"base_score": 0.15, "onset_hours": 2.0, "peak_hours": 6.0},
+      "skin": {"base_score": 0.03, "onset_hours": 4.0, "peak_hours": 12.0}
+    },
+    "known_side_effects": [
+      {"effect": "Palpitations", "base_probability": 0.08, "renal_amplifier": 1.0, "hepatic_amplifier": 1.0},
+      {"effect": "Weight loss", "base_probability": 0.05, "renal_amplifier": 1.0, "hepatic_amplifier": 1.0},
+      {"effect": "Insomnia", "base_probability": 0.06, "renal_amplifier": 1.0, "hepatic_amplifier": 1.0}
+    ],
+    "known_interactions": [
+      {
+        "interacts_with_class": "anticoagulant_warfarin",
+        "mechanism": "Levothyroxine increases warfarin sensitivity by enhancing catabolism of vitamin K-dependent factors",
+        "severity": "moderate",
+        "cyp_pathway": null
+      },
+      {
+        "interacts_with_class": "calcium_channel_blocker",
+        "mechanism": "Calcium supplements/antacids reduce levothyroxine absorption; CCBs minor interaction",
+        "severity": "mild",
+        "cyp_pathway": null
+      }
+    ],
+    "contraindications": [],
+    "typical_half_life_hours": 168,
+    "typical_peak_hours": 4,
+    "typical_clearance_hours": 336
+  },
+  {
+    "class_id": "experimental_nootropic",
+    "class_name": "Experimental Nootropic (Phase II — NeuroCalm-X)",
+    "member_drugs": ["NeuroCalm-X"],
+    "primary_metabolism": "CYP3A4",
+    "primary_excretion": "hepatic",
+    "renal_sensitivity": 0.40,
+    "hepatic_sensitivity": 0.85,
+    "organ_baseline_effects": {
+      "brain":      {"base_score": 0.70, "onset_hours": 0.5,  "peak_hours": 2.0},
+      "heart":      {"base_score": 0.20, "onset_hours": 1.0,  "peak_hours": 3.0},
+      "liver":      {"base_score": 0.45, "onset_hours": 1.5,  "peak_hours": 6.0},
+      "kidneys":    {"base_score": 0.15, "onset_hours": 2.0,  "peak_hours": 6.0},
+      "stomach":    {"base_score": 0.25, "onset_hours": 0.5,  "peak_hours": 1.5},
+      "lungs":      {"base_score": 0.05, "onset_hours": 2.0,  "peak_hours": 6.0},
+      "bloodstream":{"base_score": 0.55, "onset_hours": 0.3,  "peak_hours": 1.5},
+      "skin":       {"base_score": 0.08, "onset_hours": 3.0,  "peak_hours": 8.0}
+    },
+    "known_side_effects": [
+      {"effect": "Neural firing alterations",       "base_probability": 0.45, "renal_amplifier": 1.0, "hepatic_amplifier": 2.0},
+      {"effect": "Tremors",                         "base_probability": 0.35, "renal_amplifier": 1.2, "hepatic_amplifier": 1.8},
+      {"effect": "Cognitive fog / processing lag",   "base_probability": 0.30, "renal_amplifier": 1.0, "hepatic_amplifier": 1.5},
+      {"effect": "Hepatotoxicity (unknown pathway)", "base_probability": 0.20, "renal_amplifier": 1.0, "hepatic_amplifier": 3.5},
+      {"effect": "Insomnia / sleep disruption",      "base_probability": 0.25, "renal_amplifier": 1.0, "hepatic_amplifier": 1.0},
+      {"effect": "Serotonin dysregulation",          "base_probability": 0.15, "renal_amplifier": 1.0, "hepatic_amplifier": 1.5}
+    ],
+    "known_interactions": [
+      {"interacts_with_class": "ssri",              "mechanism": "Both modulate serotonergic pathways; risk of serotonin syndrome with co-administration", "severity": "severe",   "cyp_pathway": "CYP3A4"},
+      {"interacts_with_class": "benzodiazepine",    "mechanism": "Synergistic GABA-A receptor modulation causing excessive CNS depression and respiratory risk", "severity": "severe",   "cyp_pathway": null},
+      {"interacts_with_class": "anticoagulant_warfarin", "mechanism": "CYP3A4 competition may unpredictably alter warfarin metabolism, increasing bleed risk", "severity": "moderate", "cyp_pathway": "CYP3A4"},
+      {"interacts_with_class": "opioid",            "mechanism": "Additive CNS depression with respiratory depression risk; Phase II data insufficient", "severity": "severe",   "cyp_pathway": null},
+      {"interacts_with_class": "antibiotic_macrolide","mechanism": "CYP3A4 inhibition by macrolides dramatically increases NeuroCalm-X plasma levels", "severity": "moderate", "cyp_pathway": "CYP3A4"},
+      {"interacts_with_class": "beta2_agonist",     "mechanism": "Potential tremor exacerbation when combined with beta-2 agonists", "severity": "mild",     "cyp_pathway": null}
+    ],
+    "contraindications": [
+      {"condition": "liver_disease",       "type": "absolute", "reason": "Unknown hepatotoxic mechanism — impaired liver dramatically increases toxicity risk"},
+      {"condition": "epilepsy",            "type": "relative", "reason": "May lower seizure threshold through GABA-A receptor modulation"},
+      {"condition": "pregnancy_trimester3", "type": "absolute", "reason": "Teratogenic potential not yet assessed in preclinical data"}
+    ],
+    "typical_half_life_hours": 8,
+    "typical_peak_hours": 2.0,
+    "typical_clearance_hours": 36
+  }
+]

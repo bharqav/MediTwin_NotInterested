@@ -1,0 +1,72 @@
+[
+  {
+    "source_url": "https://api.fda.gov/drug/event.json?limit=50",
+    "download_timestamp": "2026-03-27T13:34:39.792876+00:00",
+    "sha256": "0ad53334f177e4def53f6ef703a86e62f9a6c1ed0b395488014d552b812a9313",
+    "version_quarter": "2008Q2",
+    "path": "D:\\404\\backend\\data\\evidence\\raw\\faers_openfda_sample.json"
+  },
+  {
+    "source_url": "https://api.fda.gov/drug/event.json",
+    "download_timestamp": "2026-03-27T13:46:46.027789+00:00",
+    "sha256": "65982015464f4f3b21340c731edb71e80067309b7a4a4661d59e2fde8f684eb7",
+    "version_quarter": "2024Q1",
+    "path": "D:\\404\\backend\\data\\evidence\\raw\\faers_targeted_events.json"
+  },
+  {
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?pagesize=100",
+    "download_timestamp": "2026-03-27T13:46:48.222097+00:00",
+    "sha256": "51c38b384777419d494a9f9ac5b8e64436427b9e9762c29e65e6161374faa711",
+    "version_quarter": "2026Q1",
+    "path": "D:\\404\\backend\\data\\evidence\\raw\\dailymed_spl_sample.json"
+  },
+  {
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/drugnames.json?pagesize=500",
+    "download_timestamp": "2026-03-27T13:46:53.215586+00:00",
+    "sha256": "ce922969613b735f8e847eb8b7e8b6ed16efc828082bfe6c5bcb891ec9d4b257",
+    "version_quarter": "2026Q1",
+    "path": "D:\\404\\backend\\data\\evidence\\raw\\dailymed_drugnames.json"
+  },
+  {
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/rxcuis.json?pagesize=500",
+    "download_timestamp": "2026-03-27T13:46:53.579036+00:00",
+    "sha256": "10d83fd3a58171078fda82681474c7141efd07a8857903a1ea6cb9ce726c4f3f",
+    "version_quarter": "2026Q1",
+    "path": "D:\\404\\backend\\data\\evidence\\raw\\dailymed_rxcuis.json"
+  },
+  {
+    "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?pagesize=200",
+    "download_timestamp": "2026-03-27T13:46:56.240294+00:00",
+    "sha256": "3410780223d4649b5e629943d0608bec86b149403e5043bfc8aa6a2cfe4100ec",
+    "version_quarter": "2026Q1",
+    "path": "D:\\404\\backend\\data\\evidence\\raw\\dailymed_spls.json"
+  },
+  {
+    "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui.json",
+    "download_timestamp": "2026-03-27T13:47:52.026871+00:00",
+    "sha256": "1cad8afdf68701a19f0a15f5ccc1dab66a0ce68df3645bebeed8fb67dbdae9f9",
+    "version_quarter": "2026-03",
+    "path": "D:\\404\\backend\\data\\evidence\\raw\\rxnorm_mappings.csv"
+  },
+  {
+    "source_url": "https://www.ebi.ac.uk/chembl/api/data/drug_warning.json?limit=200",
+    "download_timestamp": "2026-03-27T13:47:55.724004+00:00",
+    "sha256": "e5428a38cc8bca9c54f71478ab9db4ede8cd1d3f3b6a56ace5682bad23954800",
+    "version_quarter": "2026-03",
+    "path": "D:\\404\\backend\\data\\evidence\\raw\\chembl_drug_warning.json"
+  },
+  {
+    "source_url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json?limit=200",
+    "download_timestamp": "2026-03-27T13:47:57.326508+00:00",
+    "sha256": "e72d9cd0e70edf7a2638be25bd02077530b44748d8c4b904d6e8e72e5beabf3e",
+    "version_quarter": "2026-03",
+    "path": "D:\\404\\backend\\data\\evidence\\raw\\chembl_drug_indication.json"
+  },
+  {
+    "source_url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?limit=200",
+    "download_timestamp": "2026-03-27T13:47:59.003095+00:00",
+    "sha256": "c2001584bc3ce94a6d7615e3cb63dac45266be0c204dbab8b613ffac1c37bec2",
+    "version_quarter": "2026-03",
+    "path": "D:\\404\\backend\\data\\evidence\\raw\\chembl_mechanism.json"
+  }
+]

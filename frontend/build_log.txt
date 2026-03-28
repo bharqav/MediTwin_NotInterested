@@ -1,0 +1,105 @@
+﻿Γû▓ Next.js 16.2.1 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 16.7s
+  Running TypeScript ...
+node.exe : Failed to 
+type check.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Failed to typ   
+ e check.:String) [    
+], RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+./app/pharma/results/pa
+ge.tsx:90:19
+Type error: Type '(v: 
+number) => [string, 
+string]' is not 
+assignable to type 
+'Formatter<ValueType, 
+NameType> & ((value: 
+ValueType, name: 
+NameType, item: 
+TooltipPayloadEntry, 
+index: number, 
+payload: 
+TooltipPayload) => 
+ReactNode | [...])'.
+  Type '(v: number) => 
+[string, string]' is 
+not assignable to type 
+'Formatter<ValueType, 
+NameType>'.
+    Types of 
+parameters 'v' and 
+'value' are 
+incompatible.
+      Type 'ValueType 
+| undefined' is not 
+assignable to type 
+'number'.
+        Type 
+'undefined' is not 
+assignable to type 
+'number'.
+
+  [90m88 |[0m        
+         
+<[33mYAxis[0m [36mty
+pe[0m=[32m"category"
+[0m dataKey=[32m"effec
+t"[0m tick={{ fill: 
+[32m'#8B95B0'[0m, 
+fontSize:.[35m..[0m
+  [90m89 |[0m        
+         
+<[33mTooltip[0m 
+contentStyle={{ 
+background: 
+[32m'#0F1628'[0m, 
+border: [32m'1px 
+solid #1A2340.[0m..
+[31m[1m>[0m [90m90 
+|[0m                  
+ formatter={(v: 
+number) => 
+[[32m`[0m${v[32m} 
+patients`[0m, 
+[32m'Count'[0m]} />
+  [90m   |[0m        
+           
+[31m[1m^[0m
+  [90m91 |[0m        
+         <[33mBar[0m 
+dataKey=[32m"count"[0
+m fill=[32m"#00D4FF"[
+0m 
+radius={[[35m0[0m, 
+[35m6[0m, 
+[35m6[0m, 
+[35m0[0m]} />
+  [90m92 |[0m        
+       
+</[33mBarChart[0m>
+  [90m93 |[0m        
+     </[33mResponsiveC
+ontainer[0m>
+Next.js build worker 
+exited with code: 1 
+and signal: null

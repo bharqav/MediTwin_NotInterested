@@ -1,0 +1,1064 @@
+[
+  {
+    "name": "Ibuprofen",
+    "brand_names": [
+      "Advil",
+      "Motrin"
+    ],
+    "drug_class_id": "nsaid",
+    "typical_dose_mg": 400,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "NSAID (Non-Steroidal Anti-Inflammatory Drug)",
+    "typical_half_life_hours": 2.1,
+    "typical_peak_hours": 1.5
+  },
+  {
+    "name": "Naproxen",
+    "brand_names": [
+      "Aleve"
+    ],
+    "drug_class_id": "nsaid",
+    "typical_dose_mg": 500,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "NSAID (Non-Steroidal Anti-Inflammatory Drug)",
+    "typical_half_life_hours": 14,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Diclofenac",
+    "brand_names": [
+      "Voltaren"
+    ],
+    "drug_class_id": "nsaid",
+    "typical_dose_mg": 50,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "NSAID (Non-Steroidal Anti-Inflammatory Drug)",
+    "typical_half_life_hours": 2,
+    "typical_peak_hours": 1
+  },
+  {
+    "name": "Celecoxib",
+    "brand_names": [
+      "Celebrex"
+    ],
+    "drug_class_id": "nsaid",
+    "typical_dose_mg": 200,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "NSAID (Non-Steroidal Anti-Inflammatory Drug)",
+    "typical_half_life_hours": 11,
+    "typical_peak_hours": 3
+  },
+  {
+    "name": "Aspirin",
+    "brand_names": [
+      "Bayer"
+    ],
+    "drug_class_id": "nsaid",
+    "typical_dose_mg": 325,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "NSAID (Non-Steroidal Anti-Inflammatory Drug)",
+    "typical_half_life_hours": 4,
+    "typical_peak_hours": 1
+  },
+  {
+    "name": "Lisinopril",
+    "brand_names": [
+      "Zestril",
+      "Prinivil"
+    ],
+    "drug_class_id": "ace_inhibitor",
+    "typical_dose_mg": 10,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "ACE Inhibitor",
+    "typical_half_life_hours": 12,
+    "typical_peak_hours": 6
+  },
+  {
+    "name": "Enalapril",
+    "brand_names": [
+      "Vasotec"
+    ],
+    "drug_class_id": "ace_inhibitor",
+    "typical_dose_mg": 10,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "ACE Inhibitor",
+    "typical_half_life_hours": 11,
+    "typical_peak_hours": 4
+  },
+  {
+    "name": "Ramipril",
+    "brand_names": [
+      "Altace"
+    ],
+    "drug_class_id": "ace_inhibitor",
+    "typical_dose_mg": 5,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "ACE Inhibitor",
+    "typical_half_life_hours": 13,
+    "typical_peak_hours": 3
+  },
+  {
+    "name": "Captopril",
+    "brand_names": [
+      "Capoten"
+    ],
+    "drug_class_id": "ace_inhibitor",
+    "typical_dose_mg": 25,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "ACE Inhibitor",
+    "typical_half_life_hours": 2,
+    "typical_peak_hours": 1
+  },
+  {
+    "name": "Perindopril",
+    "brand_names": [
+      "Aceon"
+    ],
+    "drug_class_id": "ace_inhibitor",
+    "typical_dose_mg": 4,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "ACE Inhibitor",
+    "typical_half_life_hours": 17,
+    "typical_peak_hours": 3
+  },
+  {
+    "name": "Warfarin",
+    "brand_names": [
+      "Coumadin"
+    ],
+    "drug_class_id": "anticoagulant_warfarin",
+    "typical_dose_mg": 5,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Anticoagulant (Warfarin)",
+    "typical_half_life_hours": 40,
+    "typical_peak_hours": 4
+  },
+  {
+    "name": "Azithromycin",
+    "brand_names": [
+      "Zithromax",
+      "Z-Pack"
+    ],
+    "drug_class_id": "antibiotic_macrolide",
+    "typical_dose_mg": 500,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Macrolide Antibiotic",
+    "typical_half_life_hours": 68,
+    "typical_peak_hours": 2.5
+  },
+  {
+    "name": "Clarithromycin",
+    "brand_names": [
+      "Biaxin"
+    ],
+    "drug_class_id": "antibiotic_macrolide",
+    "typical_dose_mg": 500,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Macrolide Antibiotic",
+    "typical_half_life_hours": 5,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Erythromycin",
+    "brand_names": [
+      "Ery-Tab"
+    ],
+    "drug_class_id": "antibiotic_macrolide",
+    "typical_dose_mg": 500,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Macrolide Antibiotic",
+    "typical_half_life_hours": 1.5,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Ciprofloxacin",
+    "brand_names": [
+      "Cipro"
+    ],
+    "drug_class_id": "antibiotic_fluoroquinolone",
+    "typical_dose_mg": 500,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Fluoroquinolone Antibiotic",
+    "typical_half_life_hours": 4,
+    "typical_peak_hours": 1.5
+  },
+  {
+    "name": "Levofloxacin",
+    "brand_names": [
+      "Levaquin"
+    ],
+    "drug_class_id": "antibiotic_fluoroquinolone",
+    "typical_dose_mg": 500,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Fluoroquinolone Antibiotic",
+    "typical_half_life_hours": 7,
+    "typical_peak_hours": 1.5
+  },
+  {
+    "name": "Moxifloxacin",
+    "brand_names": [
+      "Avelox"
+    ],
+    "drug_class_id": "antibiotic_fluoroquinolone",
+    "typical_dose_mg": 400,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Fluoroquinolone Antibiotic",
+    "typical_half_life_hours": 12,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Amoxicillin",
+    "brand_names": [
+      "Amoxil"
+    ],
+    "drug_class_id": "antibiotic_penicillin",
+    "typical_dose_mg": 500,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Penicillin Antibiotic",
+    "typical_half_life_hours": 1.5,
+    "typical_peak_hours": 1.5
+  },
+  {
+    "name": "Ampicillin",
+    "brand_names": [
+      "Principen"
+    ],
+    "drug_class_id": "antibiotic_penicillin",
+    "typical_dose_mg": 500,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Penicillin Antibiotic",
+    "typical_half_life_hours": 1,
+    "typical_peak_hours": 1
+  },
+  {
+    "name": "Amoxicillin-Clavulanate",
+    "brand_names": [
+      "Augmentin"
+    ],
+    "drug_class_id": "antibiotic_penicillin",
+    "typical_dose_mg": 875,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Penicillin Antibiotic",
+    "typical_half_life_hours": 1.5,
+    "typical_peak_hours": 1.5
+  },
+  {
+    "name": "Metoprolol",
+    "brand_names": [
+      "Lopressor",
+      "Toprol-XL"
+    ],
+    "drug_class_id": "beta_blocker",
+    "typical_dose_mg": 50,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Beta Blocker",
+    "typical_half_life_hours": 5,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Atenolol",
+    "brand_names": [
+      "Tenormin"
+    ],
+    "drug_class_id": "beta_blocker",
+    "typical_dose_mg": 50,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Beta Blocker",
+    "typical_half_life_hours": 7,
+    "typical_peak_hours": 3
+  },
+  {
+    "name": "Propranolol",
+    "brand_names": [
+      "Inderal"
+    ],
+    "drug_class_id": "beta_blocker",
+    "typical_dose_mg": 40,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Beta Blocker",
+    "typical_half_life_hours": 4,
+    "typical_peak_hours": 1.5
+  },
+  {
+    "name": "Bisoprolol",
+    "brand_names": [
+      "Zebeta"
+    ],
+    "drug_class_id": "beta_blocker",
+    "typical_dose_mg": 5,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Beta Blocker",
+    "typical_half_life_hours": 11,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Carvedilol",
+    "brand_names": [
+      "Coreg"
+    ],
+    "drug_class_id": "beta_blocker",
+    "typical_dose_mg": 12.5,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Beta Blocker",
+    "typical_half_life_hours": 7,
+    "typical_peak_hours": 1.5
+  },
+  {
+    "name": "Amlodipine",
+    "brand_names": [
+      "Norvasc"
+    ],
+    "drug_class_id": "calcium_channel_blocker",
+    "typical_dose_mg": 5,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Calcium Channel Blocker",
+    "typical_half_life_hours": 35,
+    "typical_peak_hours": 8
+  },
+  {
+    "name": "Nifedipine",
+    "brand_names": [
+      "Procardia"
+    ],
+    "drug_class_id": "calcium_channel_blocker",
+    "typical_dose_mg": 30,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Calcium Channel Blocker",
+    "typical_half_life_hours": 2,
+    "typical_peak_hours": 1
+  },
+  {
+    "name": "Diltiazem",
+    "brand_names": [
+      "Cardizem"
+    ],
+    "drug_class_id": "calcium_channel_blocker",
+    "typical_dose_mg": 120,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Calcium Channel Blocker",
+    "typical_half_life_hours": 4,
+    "typical_peak_hours": 3
+  },
+  {
+    "name": "Verapamil",
+    "brand_names": [
+      "Calan"
+    ],
+    "drug_class_id": "calcium_channel_blocker",
+    "typical_dose_mg": 120,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Calcium Channel Blocker",
+    "typical_half_life_hours": 6,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Furosemide",
+    "brand_names": [
+      "Lasix"
+    ],
+    "drug_class_id": "diuretic_loop",
+    "typical_dose_mg": 40,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Loop Diuretic",
+    "typical_half_life_hours": 2,
+    "typical_peak_hours": 1
+  },
+  {
+    "name": "Bumetanide",
+    "brand_names": [
+      "Bumex"
+    ],
+    "drug_class_id": "diuretic_loop",
+    "typical_dose_mg": 1,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Loop Diuretic",
+    "typical_half_life_hours": 1.5,
+    "typical_peak_hours": 1
+  },
+  {
+    "name": "Torsemide",
+    "brand_names": [
+      "Demadex"
+    ],
+    "drug_class_id": "diuretic_loop",
+    "typical_dose_mg": 20,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Loop Diuretic",
+    "typical_half_life_hours": 3.5,
+    "typical_peak_hours": 1
+  },
+  {
+    "name": "Hydrochlorothiazide",
+    "brand_names": [
+      "Microzide"
+    ],
+    "drug_class_id": "diuretic_thiazide",
+    "typical_dose_mg": 25,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Thiazide Diuretic",
+    "typical_half_life_hours": 10,
+    "typical_peak_hours": 4
+  },
+  {
+    "name": "Chlorthalidone",
+    "brand_names": [
+      "Thalitone"
+    ],
+    "drug_class_id": "diuretic_thiazide",
+    "typical_dose_mg": 25,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Thiazide Diuretic",
+    "typical_half_life_hours": 45,
+    "typical_peak_hours": 6
+  },
+  {
+    "name": "Indapamide",
+    "brand_names": [
+      "Lozol"
+    ],
+    "drug_class_id": "diuretic_thiazide",
+    "typical_dose_mg": 2.5,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Thiazide Diuretic",
+    "typical_half_life_hours": 14,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Atorvastatin",
+    "brand_names": [
+      "Lipitor"
+    ],
+    "drug_class_id": "statin",
+    "typical_dose_mg": 20,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Statin (HMG-CoA Reductase Inhibitor)",
+    "typical_half_life_hours": 14,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Rosuvastatin",
+    "brand_names": [
+      "Crestor"
+    ],
+    "drug_class_id": "statin",
+    "typical_dose_mg": 10,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Statin (HMG-CoA Reductase Inhibitor)",
+    "typical_half_life_hours": 19,
+    "typical_peak_hours": 5
+  },
+  {
+    "name": "Simvastatin",
+    "brand_names": [
+      "Zocor"
+    ],
+    "drug_class_id": "statin",
+    "typical_dose_mg": 20,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Statin (HMG-CoA Reductase Inhibitor)",
+    "typical_half_life_hours": 3,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Pravastatin",
+    "brand_names": [
+      "Pravachol"
+    ],
+    "drug_class_id": "statin",
+    "typical_dose_mg": 40,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Statin (HMG-CoA Reductase Inhibitor)",
+    "typical_half_life_hours": 2,
+    "typical_peak_hours": 1.5
+  },
+  {
+    "name": "Lovastatin",
+    "brand_names": [
+      "Mevacor"
+    ],
+    "drug_class_id": "statin",
+    "typical_dose_mg": 20,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Statin (HMG-CoA Reductase Inhibitor)",
+    "typical_half_life_hours": 2,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Metformin",
+    "brand_names": [
+      "Glucophage"
+    ],
+    "drug_class_id": "biguanide_metformin",
+    "typical_dose_mg": 500,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Biguanide (Metformin)",
+    "typical_half_life_hours": 5,
+    "typical_peak_hours": 2.5
+  },
+  {
+    "name": "Sertraline",
+    "brand_names": [
+      "Zoloft"
+    ],
+    "drug_class_id": "ssri",
+    "typical_dose_mg": 50,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "SSRI (Selective Serotonin Reuptake Inhibitor)",
+    "typical_half_life_hours": 26,
+    "typical_peak_hours": 6
+  },
+  {
+    "name": "Fluoxetine",
+    "brand_names": [
+      "Prozac"
+    ],
+    "drug_class_id": "ssri",
+    "typical_dose_mg": 20,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "SSRI (Selective Serotonin Reuptake Inhibitor)",
+    "typical_half_life_hours": 48,
+    "typical_peak_hours": 6
+  },
+  {
+    "name": "Escitalopram",
+    "brand_names": [
+      "Lexapro"
+    ],
+    "drug_class_id": "ssri",
+    "typical_dose_mg": 10,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "SSRI (Selective Serotonin Reuptake Inhibitor)",
+    "typical_half_life_hours": 27,
+    "typical_peak_hours": 5
+  },
+  {
+    "name": "Paroxetine",
+    "brand_names": [
+      "Paxil"
+    ],
+    "drug_class_id": "ssri",
+    "typical_dose_mg": 20,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "SSRI (Selective Serotonin Reuptake Inhibitor)",
+    "typical_half_life_hours": 21,
+    "typical_peak_hours": 5
+  },
+  {
+    "name": "Citalopram",
+    "brand_names": [
+      "Celexa"
+    ],
+    "drug_class_id": "ssri",
+    "typical_dose_mg": 20,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "SSRI (Selective Serotonin Reuptake Inhibitor)",
+    "typical_half_life_hours": 35,
+    "typical_peak_hours": 4
+  },
+  {
+    "name": "Diazepam",
+    "brand_names": [
+      "Valium"
+    ],
+    "drug_class_id": "benzodiazepine",
+    "typical_dose_mg": 5,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Benzodiazepine",
+    "typical_half_life_hours": 43,
+    "typical_peak_hours": 1.5
+  },
+  {
+    "name": "Lorazepam",
+    "brand_names": [
+      "Ativan"
+    ],
+    "drug_class_id": "benzodiazepine",
+    "typical_dose_mg": 1,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Benzodiazepine",
+    "typical_half_life_hours": 12,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Alprazolam",
+    "brand_names": [
+      "Xanax"
+    ],
+    "drug_class_id": "benzodiazepine",
+    "typical_dose_mg": 0.5,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Benzodiazepine",
+    "typical_half_life_hours": 11,
+    "typical_peak_hours": 1.5
+  },
+  {
+    "name": "Clonazepam",
+    "brand_names": [
+      "Klonopin"
+    ],
+    "drug_class_id": "benzodiazepine",
+    "typical_dose_mg": 0.5,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Benzodiazepine",
+    "typical_half_life_hours": 30,
+    "typical_peak_hours": 3
+  },
+  {
+    "name": "Morphine",
+    "brand_names": [
+      "MS Contin"
+    ],
+    "drug_class_id": "opioid",
+    "typical_dose_mg": 15,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Opioid Analgesic",
+    "typical_half_life_hours": 4,
+    "typical_peak_hours": 1
+  },
+  {
+    "name": "Oxycodone",
+    "brand_names": [
+      "OxyContin"
+    ],
+    "drug_class_id": "opioid",
+    "typical_dose_mg": 10,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Opioid Analgesic",
+    "typical_half_life_hours": 4,
+    "typical_peak_hours": 1
+  },
+  {
+    "name": "Codeine",
+    "brand_names": [
+      "Tylenol-3"
+    ],
+    "drug_class_id": "opioid",
+    "typical_dose_mg": 30,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Opioid Analgesic",
+    "typical_half_life_hours": 3,
+    "typical_peak_hours": 1
+  },
+  {
+    "name": "Tramadol",
+    "brand_names": [
+      "Ultram"
+    ],
+    "drug_class_id": "opioid",
+    "typical_dose_mg": 50,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Opioid Analgesic",
+    "typical_half_life_hours": 6,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Omeprazole",
+    "brand_names": [
+      "Prilosec"
+    ],
+    "drug_class_id": "proton_pump_inhibitor",
+    "typical_dose_mg": 20,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Proton Pump Inhibitor",
+    "typical_half_life_hours": 1.5,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Pantoprazole",
+    "brand_names": [
+      "Protonix"
+    ],
+    "drug_class_id": "proton_pump_inhibitor",
+    "typical_dose_mg": 40,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Proton Pump Inhibitor",
+    "typical_half_life_hours": 1,
+    "typical_peak_hours": 2.5
+  },
+  {
+    "name": "Esomeprazole",
+    "brand_names": [
+      "Nexium"
+    ],
+    "drug_class_id": "proton_pump_inhibitor",
+    "typical_dose_mg": 20,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Proton Pump Inhibitor",
+    "typical_half_life_hours": 1.5,
+    "typical_peak_hours": 1.5
+  },
+  {
+    "name": "Lansoprazole",
+    "brand_names": [
+      "Prevacid"
+    ],
+    "drug_class_id": "proton_pump_inhibitor",
+    "typical_dose_mg": 30,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Proton Pump Inhibitor",
+    "typical_half_life_hours": 1.5,
+    "typical_peak_hours": 1.7
+  },
+  {
+    "name": "Glipizide",
+    "brand_names": [
+      "Glucotrol"
+    ],
+    "drug_class_id": "antidiabetic_sulfonylurea",
+    "typical_dose_mg": 5,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Sulfonylurea Antidiabetic",
+    "typical_half_life_hours": 4,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Glyburide",
+    "brand_names": [
+      "DiaBeta"
+    ],
+    "drug_class_id": "antidiabetic_sulfonylurea",
+    "typical_dose_mg": 5,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Sulfonylurea Antidiabetic",
+    "typical_half_life_hours": 10,
+    "typical_peak_hours": 4
+  },
+  {
+    "name": "Glimepiride",
+    "brand_names": [
+      "Amaryl"
+    ],
+    "drug_class_id": "antidiabetic_sulfonylurea",
+    "typical_dose_mg": 2,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Sulfonylurea Antidiabetic",
+    "typical_half_life_hours": 5,
+    "typical_peak_hours": 3
+  },
+  {
+    "name": "Prednisone",
+    "brand_names": [
+      "Deltasone"
+    ],
+    "drug_class_id": "corticosteroid",
+    "typical_dose_mg": 10,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Corticosteroid",
+    "typical_half_life_hours": 3.5,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Dexamethasone",
+    "brand_names": [
+      "Decadron"
+    ],
+    "drug_class_id": "corticosteroid",
+    "typical_dose_mg": 4,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Corticosteroid",
+    "typical_half_life_hours": 36,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Hydrocortisone",
+    "brand_names": [
+      "Cortef"
+    ],
+    "drug_class_id": "corticosteroid",
+    "typical_dose_mg": 20,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Corticosteroid",
+    "typical_half_life_hours": 1.5,
+    "typical_peak_hours": 1
+  },
+  {
+    "name": "Methylprednisolone",
+    "brand_names": [
+      "Medrol"
+    ],
+    "drug_class_id": "corticosteroid",
+    "typical_dose_mg": 4,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Corticosteroid",
+    "typical_half_life_hours": 3,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Losartan",
+    "brand_names": [
+      "Cozaar"
+    ],
+    "drug_class_id": "arb",
+    "typical_dose_mg": 50,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Angiotensin II Receptor Blocker (ARB)",
+    "typical_half_life_hours": 6,
+    "typical_peak_hours": 3
+  },
+  {
+    "name": "Valsartan",
+    "brand_names": [
+      "Diovan"
+    ],
+    "drug_class_id": "arb",
+    "typical_dose_mg": 80,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Angiotensin II Receptor Blocker (ARB)",
+    "typical_half_life_hours": 9,
+    "typical_peak_hours": 3
+  },
+  {
+    "name": "Irbesartan",
+    "brand_names": [
+      "Avapro"
+    ],
+    "drug_class_id": "arb",
+    "typical_dose_mg": 150,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Angiotensin II Receptor Blocker (ARB)",
+    "typical_half_life_hours": 12,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Telmisartan",
+    "brand_names": [
+      "Micardis"
+    ],
+    "drug_class_id": "arb",
+    "typical_dose_mg": 40,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Angiotensin II Receptor Blocker (ARB)",
+    "typical_half_life_hours": 24,
+    "typical_peak_hours": 1
+  },
+  {
+    "name": "Apixaban",
+    "brand_names": [
+      "Eliquis"
+    ],
+    "drug_class_id": "anticoagulant_doac",
+    "typical_dose_mg": 5,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Direct Oral Anticoagulant (DOAC)",
+    "typical_half_life_hours": 12,
+    "typical_peak_hours": 3
+  },
+  {
+    "name": "Rivaroxaban",
+    "brand_names": [
+      "Xarelto"
+    ],
+    "drug_class_id": "anticoagulant_doac",
+    "typical_dose_mg": 20,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Direct Oral Anticoagulant (DOAC)",
+    "typical_half_life_hours": 9,
+    "typical_peak_hours": 3
+  },
+  {
+    "name": "Dabigatran",
+    "brand_names": [
+      "Pradaxa"
+    ],
+    "drug_class_id": "anticoagulant_doac",
+    "typical_dose_mg": 150,
+    "route_options": [
+      "oral"
+    ],
+    "mechanism": "Direct Oral Anticoagulant (DOAC)",
+    "typical_half_life_hours": 13,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Paracetamol",
+    "brand_names": ["Tylenol", "Crocin", "Dolo"],
+    "drug_class_id": "analgesic_paracetamol",
+    "typical_dose_mg": 500,
+    "route_options": ["oral"],
+    "mechanism": "Analgesic/Antipyretic — inhibits central COX and activates descending serotonergic pathways",
+    "typical_half_life_hours": 2.5,
+    "typical_peak_hours": 1.0
+  },
+  {
+    "name": "Salbutamol",
+    "brand_names": ["Ventolin", "ProAir"],
+    "drug_class_id": "beta2_agonist",
+    "typical_dose_mg": 100,
+    "route_options": ["inhaled", "oral"],
+    "mechanism": "Selective beta-2 adrenergic agonist — relaxes bronchial smooth muscle",
+    "typical_half_life_hours": 4,
+    "typical_peak_hours": 0.25
+  },
+  {
+    "name": "Methotrexate",
+    "brand_names": ["Trexall", "Rheumatrex"],
+    "drug_class_id": "dmard_methotrexate",
+    "typical_dose_mg": 15,
+    "route_options": ["oral", "injection"],
+    "mechanism": "DMARD — inhibits dihydrofolate reductase, suppressing immune cell proliferation",
+    "typical_half_life_hours": 6,
+    "typical_peak_hours": 2
+  },
+  {
+    "name": "Levothyroxine",
+    "brand_names": ["Synthroid", "Eltroxin"],
+    "drug_class_id": "thyroid_hormone",
+    "typical_dose_mg": 75,
+    "route_options": ["oral"],
+    "mechanism": "Synthetic T4 thyroid hormone replacement — restores metabolic homeostasis",
+    "typical_half_life_hours": 168,
+    "typical_peak_hours": 4
+  },
+  {
+    "name": "NeuroCalm-X",
+    "brand_names": ["NCX-207"],
+    "drug_class_id": "experimental_nootropic",
+    "typical_dose_mg": 25,
+    "route_options": ["oral"],
+    "mechanism": "Phase II experimental nootropic — selective GABA-A positive allosteric modulator with secondary 5-HT1A agonism. Mechanism under active investigation.",
+    "typical_half_life_hours": 8,
+    "typical_peak_hours": 2.0
+  }
+]

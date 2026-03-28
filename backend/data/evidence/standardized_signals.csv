@@ -1,0 +1,827 @@
+drug_name,rxcui,reaction_meddra_pt,route,dose_unit,age_band,sex,case_count,total_reports_for_drug
+perindopril,54552,chest pain,042,unknown,40-64,male,5,40749
+perindopril,54552,pyrexia,042,unknown,40-64,male,5,40749
+ramipril,35296,tremor,048,unknown,unknown,female,4,127606
+captopril,1998,diarrhoea,048,unknown,65+,male,4,10044
+perindopril,54552,weight decreased,048,unknown,65+,male,4,40749
+perindopril,54552,transaminases increased,048,unknown,65+,male,4,40749
+ramipril,35296,cough,048,unknown,40-64,female,3,127606
+captopril,1998,colitis microscopic,048,unknown,65+,male,3,10044
+captopril,1998,weight decreased,048,unknown,65+,male,3,10044
+captopril,1998,loss of libido,048,unknown,40-64,male,3,10044
+captopril,1998,anorgasmia,048,unknown,40-64,male,3,10044
+captopril,1998,depression,048,unknown,40-64,male,3,10044
+captopril,1998,weight decreased,048,unknown,40-64,male,3,10044
+captopril,1998,mood altered,048,unknown,40-64,male,3,10044
+captopril,1998,hyperkalaemia,048,unknown,40-64,female,3,10044
+captopril,1998,sinus bradycardia,048,unknown,40-64,female,3,10044
+captopril,1998,hypotension,048,unknown,40-64,female,3,10044
+perindopril,54552,cough,048,unknown,40-64,male,3,40749
+perindopril,54552,sleep disorder,048,unknown,40-64,male,3,40749
+perindopril,54552,muscular weakness,048,unknown,40-64,male,3,40749
+perindopril,54552,hypoaesthesia,048,unknown,40-64,male,3,40749
+perindopril,54552,paraesthesia,048,unknown,40-64,male,3,40749
+naproxen,7258,hypertension,048,unknown,40-64,female,2,93544
+naproxen,7258,migraine,048,unknown,18-39,female,2,93544
+diclofenac,3355,diarrhoea,048,unknown,65+,female,2,96032
+celecoxib,140587,death,048,unknown,65+,female,2,35624
+celecoxib,140587,myositis,042,unknown,0-17,female,2,35624
+celecoxib,140587,pain,042,unknown,0-17,female,2,35624
+celecoxib,140587,paraesthesia,042,unknown,0-17,female,2,35624
+celecoxib,140587,muscle spasms,042,unknown,0-17,female,2,35624
+lisinopril,29046,haemoglobin decreased,048,unknown,65+,male,2,316169
+lisinopril,29046,dehydration,048,unknown,40-64,male,2,316169
+lisinopril,29046,gait disturbance,unknown,unknown,unknown,male,2,316169
+lisinopril,29046,platelet count decreased,048,unknown,65+,male,2,316169
+lisinopril,29046,weight increased,048,unknown,65+,male,2,316169
+enalapril,3827,platelet count decreased,048,unknown,65+,male,2,60295
+ramipril,35296,wheezing,048,unknown,40-64,female,2,127606
+captopril,1998,coronary artery occlusion,048,unknown,40-64,female,2,10044
+captopril,1998,dyspnoea,048,unknown,40-64,female,2,10044
+captopril,1998,lividity,048,unknown,40-64,female,2,10044
+captopril,1998,off label use,048,unknown,40-64,female,2,10044
+captopril,1998,arthralgia,048,unknown,40-64,male,2,10044
+captopril,1998,haemoglobin decreased,048,unknown,40-64,female,2,10044
+perindopril,54552,fatigue,048,unknown,40-64,male,2,40749
+perindopril,54552,atrial fibrillation,042,unknown,40-64,male,2,40749
+perindopril,54552,dyspnoea,042,unknown,40-64,male,2,40749
+perindopril,54552,sinus tachycardia,042,unknown,40-64,male,2,40749
+perindopril,54552,pneumonitis,042,unknown,40-64,male,2,40749
+perindopril,54552,hepatic function abnormal,048,unknown,65+,female,2,40749
+perindopril,54552,hypoaesthesia,048,unknown,65+,female,2,40749
+perindopril,54552,pain,048,unknown,65+,female,2,40749
+perindopril,54552,paralysis,048,unknown,65+,female,2,40749
+perindopril,54552,fatigue,unknown,unknown,40-64,male,2,40749
+perindopril,54552,malaise,unknown,unknown,65+,male,2,40749
+ibuprofen,5640,dyspepsia,unknown,unknown,unknown,female,1,211963
+ibuprofen,5640,renal impairment,unknown,unknown,unknown,female,1,211963
+ibuprofen,5640,cholecystectomy,042,unknown,40-64,female,1,211963
+ibuprofen,5640,nephrolithiasis,042,unknown,40-64,female,1,211963
+ibuprofen,5640,biliary tract disorder,042,unknown,40-64,female,1,211963
+ibuprofen,5640,malaise,042,unknown,40-64,female,1,211963
+ibuprofen,5640,cerebral venous thrombosis,unknown,unknown,18-39,female,1,211963
+ibuprofen,5640,jugular vein thrombosis,unknown,unknown,18-39,female,1,211963
+ibuprofen,5640,multiple sclerosis relapse,058,unknown,18-39,female,1,211963
+ibuprofen,5640,dysaesthesia,058,unknown,18-39,female,1,211963
+ibuprofen,5640,weight loss poor,048,unknown,40-64,male,1,211963
+ibuprofen,5640,off label use,unknown,unknown,0-17,male,1,211963
+ibuprofen,5640,stevens johnson syndrome,unknown,unknown,0-17,male,1,211963
+ibuprofen,5640,consciousness fluctuating,unknown,unknown,0-17,male,1,211963
+ibuprofen,5640,lip swelling,unknown,unknown,0-17,male,1,211963
+ibuprofen,5640,lip discolouration,unknown,unknown,0-17,male,1,211963
+ibuprofen,5640,blister,unknown,unknown,0-17,male,1,211963
+ibuprofen,5640,hallucination auditory,unknown,unknown,unknown,male,1,211963
+ibuprofen,5640,nervousness,unknown,unknown,unknown,male,1,211963
+ibuprofen,5640,feeling abnormal,unknown,unknown,unknown,male,1,211963
+ibuprofen,5640,hypoaesthesia oral,048,unknown,18-39,female,1,211963
+ibuprofen,5640,hypoaesthesia,048,unknown,18-39,female,1,211963
+ibuprofen,5640,malaise,048,unknown,40-64,male,1,211963
+ibuprofen,5640,pain,048,unknown,40-64,male,1,211963
+ibuprofen,5640,feeling abnormal,048,unknown,40-64,male,1,211963
+ibuprofen,5640,white blood cell count increased,048,unknown,65+,male,1,211963
+ibuprofen,5640,platelet count decreased,048,unknown,65+,male,1,211963
+ibuprofen,5640,contusion,048,unknown,65+,male,1,211963
+ibuprofen,5640,intraventricular haemorrhage neonatal,unknown,unknown,0-17,male,1,211963
+ibuprofen,5640,drug hypersensitivity,unknown,unknown,65+,female,1,211963
+ibuprofen,5640,cerebral thrombosis,unknown,unknown,18-39,female,1,211963
+ibuprofen,5640,loss of consciousness,unknown,unknown,18-39,female,1,211963
+ibuprofen,5640,gait disturbance,unknown,unknown,18-39,female,1,211963
+ibuprofen,5640,agraphia,unknown,unknown,18-39,female,1,211963
+ibuprofen,5640,fear,unknown,unknown,18-39,female,1,211963
+ibuprofen,5640,migraine,unknown,unknown,18-39,female,1,211963
+ibuprofen,5640,haemoptysis,048,unknown,18-39,male,1,211963
+ibuprofen,5640,pulmonary haemorrhage,048,unknown,18-39,male,1,211963
+ibuprofen,5640,convulsion,unknown,unknown,0-17,male,1,211963
+ibuprofen,5640,drug abuse,unknown,unknown,0-17,male,1,211963
+ibuprofen,5640,chronic obstructive pulmonary disease,048,unknown,40-64,female,1,211963
+ibuprofen,5640,dyspnoea,048,unknown,40-64,female,1,211963
+ibuprofen,5640,gastrointestinal disorder,065,unknown,unknown,unknown,1,211963
+ibuprofen,5640,dyspepsia,065,unknown,unknown,unknown,1,211963
+ibuprofen,5640,anaemia,065,unknown,unknown,unknown,1,211963
+ibuprofen,5640,breast cancer,065,unknown,unknown,female,1,211963
+ibuprofen,5640,drug interaction,065,unknown,unknown,female,1,211963
+ibuprofen,5640,adverse event,unknown,unknown,40-64,female,1,211963
+ibuprofen,5640,influenza like illness,unknown,unknown,40-64,female,1,211963
+ibuprofen,5640,arthralgia,058,unknown,unknown,female,1,211963
+ibuprofen,5640,pain in extremity,058,unknown,unknown,female,1,211963
+ibuprofen,5640,gait disturbance,058,unknown,unknown,female,1,211963
+ibuprofen,5640,mobility decreased,058,unknown,unknown,female,1,211963
+ibuprofen,5640,fatigue,058,unknown,unknown,female,1,211963
+ibuprofen,5640,asthenia,058,unknown,unknown,female,1,211963
+ibuprofen,5640,urinary retention,050,unknown,65+,male,1,211963
+ibuprofen,5640,acquired phimosis,050,unknown,65+,male,1,211963
+ibuprofen,5640,deep vein thrombosis,050,unknown,65+,male,1,211963
+ibuprofen,5640,influenza,048,unknown,18-39,female,1,211963
+ibuprofen,5640,mental impairment,048,unknown,18-39,female,1,211963
+ibuprofen,5640,stress,048,unknown,18-39,female,1,211963
+ibuprofen,5640,paraesthesia,048,unknown,18-39,female,1,211963
+ibuprofen,5640,nausea,048,unknown,18-39,female,1,211963
+ibuprofen,5640,flushing,048,unknown,18-39,female,1,211963
+ibuprofen,5640,adverse event,048,unknown,unknown,female,1,211963
+ibuprofen,5640,dysgeusia,048,unknown,40-64,female,1,211963
+ibuprofen,5640,breath odour,048,unknown,40-64,female,1,211963
+ibuprofen,5640,hyperhidrosis,048,unknown,40-64,female,1,211963
+ibuprofen,5640,fatigue,048,unknown,40-64,female,1,211963
+ibuprofen,5640,flushing,048,unknown,40-64,female,1,211963
+ibuprofen,5640,erythema,048,unknown,40-64,female,1,211963
+ibuprofen,5640,constipation,048,unknown,65+,female,1,211963
+ibuprofen,5640,fatigue,048,unknown,65+,female,1,211963
+ibuprofen,5640,drug induced liver injury,065,unknown,40-64,male,1,211963
+ibuprofen,5640,appendicitis,058,unknown,40-64,female,1,211963
+ibuprofen,5640,lethargy,048,unknown,40-64,female,1,211963
+ibuprofen,5640,weight decreased,048,unknown,40-64,female,1,211963
+ibuprofen,5640,malaise,048,unknown,40-64,female,1,211963
+ibuprofen,5640,renal impairment,048,unknown,40-64,female,1,211963
+ibuprofen,5640,diarrhoea,048,unknown,40-64,female,1,211963
+ibuprofen,5640,tinnitus,048,unknown,unknown,male,1,211963
+ibuprofen,5640,feeling abnormal,048,unknown,unknown,male,1,211963
+ibuprofen,5640,dizziness,048,unknown,unknown,male,1,211963
+ibuprofen,5640,hearing impaired,048,unknown,unknown,male,1,211963
+ibuprofen,5640,deafness,048,unknown,unknown,male,1,211963
+ibuprofen,5640,body temperature decreased,048,unknown,unknown,male,1,211963
+ibuprofen,5640,pulmonary thrombosis,048,unknown,unknown,female,1,211963
+ibuprofen,5640,thrombosis,048,unknown,unknown,female,1,211963
+naproxen,7258,cerebral thrombosis,unknown,unknown,18-39,female,1,93544
+naproxen,7258,loss of consciousness,unknown,unknown,18-39,female,1,93544
+naproxen,7258,gait disturbance,unknown,unknown,18-39,female,1,93544
+naproxen,7258,agraphia,unknown,unknown,18-39,female,1,93544
+naproxen,7258,fear,unknown,unknown,18-39,female,1,93544
+naproxen,7258,migraine,unknown,unknown,18-39,female,1,93544
+naproxen,7258,lower respiratory tract infection,unknown,unknown,65+,female,1,93544
+naproxen,7258,pneumonia,unknown,unknown,65+,female,1,93544
+naproxen,7258,bone disorder,048,unknown,40-64,female,1,93544
+naproxen,7258,paranoia,048,unknown,40-64,female,1,93544
+naproxen,7258,hallucination,048,unknown,40-64,female,1,93544
+naproxen,7258,drug delivery device implantation,048,unknown,40-64,female,1,93544
+naproxen,7258,arthropathy,048,unknown,40-64,female,1,93544
+naproxen,7258,upper gastrointestinal haemorrhage,048,unknown,65+,male,1,93544
+naproxen,7258,neuropathy peripheral,048,unknown,65+,female,1,93544
+naproxen,7258,arthralgia,048,unknown,65+,female,1,93544
+naproxen,7258,dizziness,unknown,unknown,18-39,female,1,93544
+naproxen,7258,fatigue,unknown,unknown,18-39,female,1,93544
+naproxen,7258,dysgeusia,048,unknown,40-64,female,1,93544
+naproxen,7258,breath odour,048,unknown,40-64,female,1,93544
+naproxen,7258,hyperhidrosis,048,unknown,40-64,female,1,93544
+naproxen,7258,fatigue,048,unknown,40-64,female,1,93544
+naproxen,7258,flushing,048,unknown,40-64,female,1,93544
+naproxen,7258,erythema,048,unknown,40-64,female,1,93544
+naproxen,7258,cardiac arrest,048,unknown,40-64,male,1,93544
+naproxen,7258,pulmonary embolism,048,unknown,40-64,male,1,93544
+naproxen,7258,abdominal pain,048,unknown,18-39,female,1,93544
+naproxen,7258,deformity,048,unknown,18-39,female,1,93544
+naproxen,7258,cerebral haemorrhage,048,unknown,18-39,female,1,93544
+naproxen,7258,vomiting,048,unknown,18-39,female,1,93544
+naproxen,7258,headache,048,unknown,18-39,female,1,93544
+naproxen,7258,pulmonary embolism,unknown,unknown,18-39,female,1,93544
+naproxen,7258,thrombophlebitis superficial,unknown,unknown,18-39,female,1,93544
+naproxen,7258,deep vein thrombosis,unknown,unknown,18-39,female,1,93544
+naproxen,7258,suicidal ideation,048,unknown,40-64,female,1,93544
+naproxen,7258,paraesthesia,048,unknown,40-64,female,1,93544
+naproxen,7258,hypoaesthesia,048,unknown,40-64,female,1,93544
+naproxen,7258,arthralgia,048,unknown,40-64,female,1,93544
+naproxen,7258,myalgia,048,unknown,40-64,female,1,93544
+naproxen,7258,hypergammaglobulinaemia,048,unknown,40-64,female,1,93544
+naproxen,7258,blister,048,unknown,65+,male,1,93544
+naproxen,7258,quality of life decreased,048,unknown,65+,male,1,93544
+naproxen,7258,rib fracture,048,unknown,65+,male,1,93544
+naproxen,7258,performance status decreased,048,unknown,65+,male,1,93544
+naproxen,7258,gait disturbance,048,unknown,65+,male,1,93544
+naproxen,7258,malnutrition,048,unknown,65+,male,1,93544
+naproxen,7258,type 2 diabetes mellitus,unknown,unknown,40-64,female,1,93544
+naproxen,7258,burning sensation,unknown,unknown,40-64,female,1,93544
+naproxen,7258,abnormal dreams,048,unknown,unknown,female,1,93544
+naproxen,7258,blood potassium increased,048,unknown,65+,male,1,93544
+naproxen,7258,bone pain,048,unknown,65+,female,1,93544
+naproxen,7258,fatigue,042,unknown,65+,female,1,93544
+naproxen,7258,skin exfoliation,048,unknown,18-39,female,1,93544
+naproxen,7258,pruritus,048,unknown,18-39,female,1,93544
+naproxen,7258,oral pruritus,048,unknown,18-39,female,1,93544
+naproxen,7258,local swelling,048,unknown,18-39,female,1,93544
+naproxen,7258,chest discomfort,048,unknown,18-39,female,1,93544
+naproxen,7258,paraesthesia oral,048,unknown,18-39,female,1,93544
+naproxen,7258,gastrointestinal haemorrhage,065,unknown,65+,male,1,93544
+naproxen,7258,drug interaction,065,unknown,65+,male,1,93544
+naproxen,7258,toxic epidermal necrolysis,unknown,unknown,40-64,male,1,93544
+naproxen,7258,drug reaction with eosinophilia and systemic symptoms,unknown,unknown,40-64,male,1,93544
+naproxen,7258,angioedema,unknown,unknown,40-64,male,1,93544
+naproxen,7258,application site irritation,062,unknown,40-64,female,1,93544
+naproxen,7258,application site erythema,062,unknown,40-64,female,1,93544
+naproxen,7258,product quality issue,062,unknown,40-64,female,1,93544
+naproxen,7258,depressed level of consciousness,048,unknown,40-64,female,1,93544
+naproxen,7258,unresponsive to stimuli,048,unknown,40-64,female,1,93544
+naproxen,7258,pyrexia,048,unknown,40-64,female,1,93544
+naproxen,7258,transaminases increased,048,unknown,40-64,male,1,93544
+naproxen,7258,confusional state,048,unknown,40-64,male,1,93544
+naproxen,7258,loss of consciousness,048,unknown,40-64,male,1,93544
+naproxen,7258,retrograde amnesia,048,unknown,40-64,male,1,93544
+naproxen,7258,delirium,048,unknown,40-64,male,1,93544
+naproxen,7258,bradycardia,048,unknown,40-64,male,1,93544
+naproxen,7258,back pain,048,unknown,65+,male,1,93544
+naproxen,7258,drug hypersensitivity,unknown,unknown,65+,female,1,93544
+naproxen,7258,foot fracture,048,unknown,65+,male,1,93544
+naproxen,7258,constipation,048,unknown,65+,male,1,93544
+naproxen,7258,flushing,065,unknown,18-39,female,1,93544
+naproxen,7258,palpitations,065,unknown,18-39,female,1,93544
+naproxen,7258,drug dose omission,048,unknown,18-39,female,1,93544
+naproxen,7258,bladder disorder,058,unknown,unknown,female,1,93544
+naproxen,7258,feeling abnormal,058,unknown,unknown,female,1,93544
+diclofenac,3355,diarrhoea,048,unknown,40-64,male,1,96032
+diclofenac,3355,faecal incontinence,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,neck surgery,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,drug effect decreased,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,abdominal pain,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,diarrhoea,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,cellulitis,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,gastrointestinal disorder,065,unknown,unknown,unknown,1,96032
+diclofenac,3355,dyspepsia,065,unknown,unknown,unknown,1,96032
+diclofenac,3355,anaemia,065,unknown,unknown,unknown,1,96032
+diclofenac,3355,deep vein thrombosis,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,bone pain,048,unknown,40-64,female,1,96032
+diclofenac,3355,myalgia,048,unknown,40-64,female,1,96032
+diclofenac,3355,paraesthesia,048,unknown,40-64,female,1,96032
+diclofenac,3355,hypoaesthesia,048,unknown,40-64,female,1,96032
+diclofenac,3355,abasia,048,unknown,40-64,female,1,96032
+diclofenac,3355,muscular weakness,048,unknown,40-64,female,1,96032
+diclofenac,3355,abdominal pain upper,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,sepsis,048,unknown,40-64,female,1,96032
+diclofenac,3355,coccidioidomycosis,048,unknown,40-64,female,1,96032
+diclofenac,3355,pneumonia pseudomonal,048,unknown,40-64,female,1,96032
+diclofenac,3355,pancreatitis,048,unknown,40-64,female,1,96032
+diclofenac,3355,drug dose omission,048,unknown,40-64,female,1,96032
+diclofenac,3355,hepatomegaly,048,unknown,40-64,female,1,96032
+diclofenac,3355,renal disorder,065,unknown,65+,male,1,96032
+diclofenac,3355,incorrect dose administered,065,unknown,65+,male,1,96032
+diclofenac,3355,haemoglobin decreased,048,unknown,40-64,male,1,96032
+diclofenac,3355,renal failure acute,030,unknown,40-64,female,1,96032
+diclofenac,3355,lactic acidosis,030,unknown,40-64,female,1,96032
+diclofenac,3355,blood glucose fluctuation,048,unknown,unknown,male,1,96032
+diclofenac,3355,dysphonia,048,unknown,unknown,male,1,96032
+diclofenac,3355,fatigue,048,unknown,unknown,male,1,96032
+diclofenac,3355,drug ineffective,048,unknown,40-64,female,1,96032
+diclofenac,3355,gingival pain,unknown,unknown,65+,male,1,96032
+diclofenac,3355,gingival swelling,unknown,unknown,65+,male,1,96032
+diclofenac,3355,tooth disorder,unknown,unknown,65+,male,1,96032
+diclofenac,3355,pyrexia,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,injection site pain,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,ear infection,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,breast haemorrhage,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,breast mass,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,dyspepsia,unknown,unknown,40-64,female,1,96032
+diclofenac,3355,pyrexia,061,unknown,40-64,male,1,96032
+diclofenac,3355,pain,061,unknown,40-64,male,1,96032
+diclofenac,3355,cerebrovascular disorder,048,unknown,65+,female,1,96032
+diclofenac,3355,renal failure acute,048,unknown,65+,female,1,96032
+diclofenac,3355,acidosis,048,unknown,65+,female,1,96032
+diclofenac,3355,hyperphosphataemia,048,unknown,65+,female,1,96032
+diclofenac,3355,hyperkalaemia,048,unknown,65+,female,1,96032
+diclofenac,3355,vanishing bile duct syndrome,unknown,unknown,unknown,unknown,1,96032
+diclofenac,3355,glycosylated haemoglobin increased,058,unknown,40-64,male,1,96032
+diclofenac,3355,hypoglycaemia,058,unknown,40-64,male,1,96032
+diclofenac,3355,road traffic accident,058,unknown,40-64,male,1,96032
+diclofenac,3355,ischaemic stroke,048,unknown,65+,male,1,96032
+diclofenac,3355,feeling abnormal,048,unknown,40-64,female,1,96032
+diclofenac,3355,balance disorder,048,unknown,40-64,female,1,96032
+diclofenac,3355,sedation,048,unknown,40-64,female,1,96032
+diclofenac,3355,gingival swelling,065,unknown,65+,male,1,96032
+diclofenac,3355,gingival pain,065,unknown,65+,male,1,96032
+diclofenac,3355,tooth disorder,065,unknown,65+,male,1,96032
+diclofenac,3355,pulmonary oedema,048,unknown,65+,male,1,96032
+diclofenac,3355,metabolic acidosis,048,unknown,65+,male,1,96032
+diclofenac,3355,vomiting,048,unknown,65+,male,1,96032
+diclofenac,3355,drug ineffective,unknown,unknown,65+,female,1,96032
+diclofenac,3355,anaphylactic reaction,065,unknown,18-39,unknown,1,96032
+diclofenac,3355,urosepsis,048,unknown,65+,male,1,96032
+diclofenac,3355,anaemia,030,unknown,40-64,male,1,96032
+diclofenac,3355,duodenal ulcer haemorrhage,030,unknown,40-64,male,1,96032
+diclofenac,3355,melaena,030,unknown,40-64,male,1,96032
+diclofenac,3355,rhabdomyolysis,048,unknown,65+,female,1,96032
+diclofenac,3355,torsade de pointes,048,unknown,65+,female,1,96032
+diclofenac,3355,myoglobinuria,048,unknown,65+,female,1,96032
+diclofenac,3355,stress cardiomyopathy,048,unknown,65+,female,1,96032
+diclofenac,3355,fall,unknown,unknown,40-64,male,1,96032
+diclofenac,3355,contusion,unknown,unknown,40-64,male,1,96032
+diclofenac,3355,mobility decreased,unknown,unknown,40-64,male,1,96032
+diclofenac,3355,dyspnoea,unknown,unknown,40-64,male,1,96032
+diclofenac,3355,myocardial infarction,unknown,unknown,40-64,male,1,96032
+diclofenac,3355,cardiac disorder,unknown,unknown,40-64,male,1,96032
+diclofenac,3355,infusion related reaction,042,unknown,40-64,male,1,96032
+diclofenac,3355,intramedullary rod insertion,unknown,unknown,unknown,female,1,96032
+diclofenac,3355,vertebral osteophyte,unknown,unknown,unknown,female,1,96032
+diclofenac,3355,gastrooesophageal reflux disease,unknown,unknown,unknown,female,1,96032
+diclofenac,3355,vertebral foraminal stenosis,unknown,unknown,unknown,female,1,96032
+diclofenac,3355,paraesthesia,unknown,unknown,unknown,female,1,96032
+diclofenac,3355,parathyroid gland operation,unknown,unknown,unknown,female,1,96032
+celecoxib,140587,subarachnoid haemorrhage,048,unknown,65+,female,1,35624
+celecoxib,140587,cerebral haematoma,048,unknown,65+,female,1,35624
+celecoxib,140587,haematemesis,048,unknown,65+,female,1,35624
+celecoxib,140587,pneumonia,041,unknown,40-64,female,1,35624
+celecoxib,140587,application site discomfort,unknown,unknown,40-64,female,1,35624
+celecoxib,140587,application site erythema,unknown,unknown,40-64,female,1,35624
+celecoxib,140587,abdominal discomfort,unknown,unknown,unknown,female,1,35624
+celecoxib,140587,breast cancer in situ,042,unknown,40-64,female,1,35624
+celecoxib,140587,rhabdomyolysis,048,unknown,65+,female,1,35624
+celecoxib,140587,diarrhoea,048,unknown,65+,female,1,35624
+celecoxib,140587,torsade de pointes,048,unknown,65+,female,1,35624
+celecoxib,140587,myoglobinuria,048,unknown,65+,female,1,35624
+celecoxib,140587,stress cardiomyopathy,048,unknown,65+,female,1,35624
+celecoxib,140587,vocal cord polyp,058,unknown,40-64,female,1,35624
+celecoxib,140587,respiratory depression,008,unknown,unknown,female,1,35624
+celecoxib,140587,sedation,008,unknown,unknown,female,1,35624
+celecoxib,140587,exposure during pregnancy,008,unknown,unknown,female,1,35624
+celecoxib,140587,urinary retention,008,unknown,unknown,female,1,35624
+celecoxib,140587,pruritus,008,unknown,unknown,female,1,35624
+celecoxib,140587,off label use,008,unknown,unknown,female,1,35624
+celecoxib,140587,stress fracture,048,unknown,40-64,female,1,35624
+celecoxib,140587,femur fracture,048,unknown,40-64,female,1,35624
+celecoxib,140587,arthralgia,048,unknown,40-64,female,1,35624
+celecoxib,140587,flank pain,048,unknown,40-64,female,1,35624
+celecoxib,140587,weight bearing difficulty,048,unknown,40-64,female,1,35624
+celecoxib,140587,pain in extremity,048,unknown,40-64,female,1,35624
+celecoxib,140587,pancreatitis acute,048,unknown,40-64,female,1,35624
+celecoxib,140587,abdominal pain upper,048,unknown,40-64,female,1,35624
+celecoxib,140587,nausea,048,unknown,40-64,female,1,35624
+celecoxib,140587,vomiting,048,unknown,40-64,female,1,35624
+celecoxib,140587,abdominal distension,048,unknown,40-64,female,1,35624
+celecoxib,140587,drug ineffective,unknown,unknown,18-39,female,1,35624
+celecoxib,140587,depressed mood,unknown,unknown,18-39,female,1,35624
+celecoxib,140587,anhedonia,unknown,unknown,18-39,female,1,35624
+celecoxib,140587,poor quality sleep,unknown,unknown,18-39,female,1,35624
+celecoxib,140587,fatigue,unknown,unknown,18-39,female,1,35624
+celecoxib,140587,feeling guilty,unknown,unknown,18-39,female,1,35624
+celecoxib,140587,ankle fracture,048,unknown,65+,female,1,35624
+celecoxib,140587,colitis,unknown,unknown,65+,female,1,35624
+celecoxib,140587,hypotension,unknown,unknown,65+,female,1,35624
+celecoxib,140587,intestinal obstruction,unknown,unknown,65+,female,1,35624
+celecoxib,140587,rhabdomyolysis,unknown,unknown,65+,female,1,35624
+celecoxib,140587,multiple organ dysfunction syndrome,unknown,unknown,65+,female,1,35624
+celecoxib,140587,haemorrhage,unknown,unknown,65+,female,1,35624
+celecoxib,140587,infusion related reaction,042,unknown,40-64,female,1,35624
+celecoxib,140587,dyspnoea,042,unknown,40-64,female,1,35624
+celecoxib,140587,wheezing,042,unknown,40-64,female,1,35624
+celecoxib,140587,chest pain,042,unknown,40-64,female,1,35624
+celecoxib,140587,chills,042,unknown,40-64,female,1,35624
+celecoxib,140587,oxygen saturation decreased,042,unknown,40-64,female,1,35624
+celecoxib,140587,infection,050,unknown,40-64,male,1,35624
+celecoxib,140587,appendiceal abscess,050,unknown,40-64,male,1,35624
+celecoxib,140587,respiratory failure,048,unknown,65+,female,1,35624
+celecoxib,140587,generalised oedema,058,unknown,40-64,male,1,35624
+celecoxib,140587,pneumonia,058,unknown,40-64,male,1,35624
+celecoxib,140587,autoimmune haemolytic anaemia,058,unknown,40-64,male,1,35624
+celecoxib,140587,splenic embolism,058,unknown,40-64,male,1,35624
+celecoxib,140587,sideroblastic anaemia,058,unknown,40-64,male,1,35624
+celecoxib,140587,haemolytic anaemia,058,unknown,40-64,male,1,35624
+celecoxib,140587,drug hypersensitivity,048,unknown,unknown,unknown,1,35624
+celecoxib,140587,off label use,048,unknown,unknown,unknown,1,35624
+celecoxib,140587,dyspnoea,048,unknown,65+,male,1,35624
+celecoxib,140587,tachycardia,048,unknown,65+,male,1,35624
+celecoxib,140587,face oedema,048,unknown,65+,male,1,35624
+celecoxib,140587,periorbital oedema,048,unknown,65+,male,1,35624
+celecoxib,140587,rash,048,unknown,65+,male,1,35624
+celecoxib,140587,cerebrovascular accident,048,unknown,65+,male,1,35624
+celecoxib,140587,anaemia,048,unknown,65+,male,1,35624
+celecoxib,140587,atrial fibrillation,048,unknown,65+,male,1,35624
+celecoxib,140587,septic arthritis staphylococcal,048,unknown,65+,male,1,35624
+celecoxib,140587,urinary tract infection,048,unknown,65+,male,1,35624
+celecoxib,140587,necrotising fasciitis,048,unknown,65+,male,1,35624
+celecoxib,140587,amyloidosis,054,unknown,65+,female,1,35624
+celecoxib,140587,gastrointestinal erosion,054,unknown,65+,female,1,35624
+celecoxib,140587,small intestine ulcer,054,unknown,65+,female,1,35624
+celecoxib,140587,amyloidosis,048,unknown,40-64,female,1,35624
+celecoxib,140587,jaundice acholuric,048,unknown,65+,female,1,35624
+celecoxib,140587,sudden death,048,unknown,65+,female,1,35624
+celecoxib,140587,tetany,042,unknown,0-17,female,1,35624
+celecoxib,140587,myopathy,042,unknown,0-17,female,1,35624
+celecoxib,140587,muscle atrophy,042,unknown,0-17,female,1,35624
+celecoxib,140587,coma,048,unknown,65+,female,1,35624
+celecoxib,140587,drug interaction,048,unknown,65+,female,1,35624
+celecoxib,140587,musculoskeletal chest pain,042,unknown,0-17,female,1,35624
+celecoxib,140587,pain in extremity,042,unknown,0-17,female,1,35624
+celecoxib,140587,myalgia,042,unknown,0-17,female,1,35624
+celecoxib,140587,blood creatine phosphokinase increased,042,unknown,0-17,female,1,35624
+celecoxib,140587,muscular weakness,042,unknown,0-17,female,1,35624
+celecoxib,140587,gait disturbance,042,unknown,0-17,female,1,35624
+celecoxib,140587,fatigue,042,unknown,0-17,female,1,35624
+aspirin,1191,drug hypersensitivity,unknown,unknown,unknown,female,1,601482
+aspirin,1191,back pain,unknown,unknown,65+,female,1,601482
+aspirin,1191,cerebrovascular accident,048,unknown,unknown,female,1,601482
+aspirin,1191,blood pressure increased,048,unknown,unknown,female,1,601482
+aspirin,1191,pain,048,unknown,unknown,female,1,601482
+aspirin,1191,oedema peripheral,unknown,unknown,65+,female,1,601482
+aspirin,1191,fluid retention,unknown,unknown,65+,female,1,601482
+aspirin,1191,hypertension,048,unknown,40-64,male,1,601482
+aspirin,1191,dehydration,048,unknown,40-64,male,1,601482
+aspirin,1191,night sweats,048,unknown,40-64,male,1,601482
+aspirin,1191,panic attack,048,unknown,40-64,male,1,601482
+aspirin,1191,hyperlipidaemia,048,unknown,40-64,male,1,601482
+aspirin,1191,insomnia,048,unknown,40-64,male,1,601482
+aspirin,1191,transfusion,048,unknown,unknown,male,1,601482
+aspirin,1191,influenza,048,unknown,65+,male,1,601482
+aspirin,1191,pneumonia,048,unknown,65+,male,1,601482
+aspirin,1191,rash,048,unknown,unknown,female,1,601482
+aspirin,1191,dyspnoea,048,unknown,unknown,female,1,601482
+aspirin,1191,haemoglobin decreased,048,unknown,65+,female,1,601482
+aspirin,1191,weight increased,048,unknown,65+,female,1,601482
+aspirin,1191,type 2 diabetes mellitus,unknown,unknown,65+,male,1,601482
+aspirin,1191,grand mal convulsion,048,unknown,40-64,male,1,601482
+aspirin,1191,vomiting,048,unknown,40-64,male,1,601482
+aspirin,1191,amnesia,048,unknown,40-64,male,1,601482
+aspirin,1191,blood count abnormal,unknown,unknown,40-64,male,1,601482
+aspirin,1191,platelet count decreased,unknown,unknown,40-64,male,1,601482
+aspirin,1191,platelet count decreased,048,unknown,65+,female,1,601482
+aspirin,1191,blood count abnormal,048,unknown,65+,female,1,601482
+aspirin,1191,increased appetite,048,unknown,unknown,female,1,601482
+aspirin,1191,incontinence,048,unknown,unknown,female,1,601482
+aspirin,1191,off label use,048,unknown,unknown,female,1,601482
+aspirin,1191,epistaxis,048,unknown,unknown,female,1,601482
+aspirin,1191,blindness,048,unknown,unknown,female,1,601482
+aspirin,1191,weight increased,048,unknown,unknown,female,1,601482
+aspirin,1191,pain,048,unknown,unknown,male,1,601482
+aspirin,1191,dizziness,048,unknown,unknown,male,1,601482
+aspirin,1191,headache,048,unknown,unknown,male,1,601482
+aspirin,1191,malaise,048,unknown,unknown,unknown,1,601482
+aspirin,1191,nausea,048,unknown,unknown,unknown,1,601482
+aspirin,1191,haemoglobin decreased,048,unknown,unknown,unknown,1,601482
+aspirin,1191,headache,048,unknown,unknown,unknown,1,601482
+aspirin,1191,lower gastrointestinal haemorrhage,048,unknown,unknown,unknown,1,601482
+aspirin,1191,rash,065,unknown,unknown,male,1,601482
+aspirin,1191,rash,048,unknown,40-64,female,1,601482
+aspirin,1191,headache,048,unknown,40-64,female,1,601482
+aspirin,1191,oral mucosal erythema,048,unknown,65+,female,1,601482
+aspirin,1191,oral pain,048,unknown,65+,female,1,601482
+aspirin,1191,abdominal tenderness,048,unknown,65+,female,1,601482
+aspirin,1191,laboratory test abnormal,048,unknown,65+,female,1,601482
+aspirin,1191,contusion,048,unknown,65+,female,1,601482
+aspirin,1191,drug dose omission,048,unknown,65+,female,1,601482
+aspirin,1191,platelet count increased,048,unknown,65+,female,1,601482
+aspirin,1191,hypertension,048,unknown,65+,female,1,601482
+aspirin,1191,treatment noncompliance,048,unknown,65+,female,1,601482
+aspirin,1191,pneumonia,048,unknown,40-64,male,1,601482
+aspirin,1191,anaemia,048,unknown,40-64,male,1,601482
+aspirin,1191,nausea,048,unknown,65+,female,1,601482
+aspirin,1191,drug administration error,048,unknown,65+,female,1,601482
+aspirin,1191,flatulence,048,unknown,65+,female,1,601482
+aspirin,1191,skin discolouration,unknown,unknown,65+,male,1,601482
+aspirin,1191,rash,unknown,unknown,65+,male,1,601482
+aspirin,1191,thrombotic microangiopathy,048,unknown,65+,male,1,601482
+aspirin,1191,renal impairment,048,unknown,65+,male,1,601482
+aspirin,1191,hepatic failure,048,unknown,65+,male,1,601482
+aspirin,1191,mental status changes,048,unknown,65+,male,1,601482
+aspirin,1191,stem cell transplant,048,unknown,65+,male,1,601482
+aspirin,1191,graft versus host disease,048,unknown,65+,male,1,601482
+aspirin,1191,spinal disorder,048,unknown,18-39,female,1,601482
+aspirin,1191,dizziness,048,unknown,18-39,female,1,601482
+aspirin,1191,feeling abnormal,048,unknown,18-39,female,1,601482
+aspirin,1191,chest pain,048,unknown,40-64,female,1,601482
+aspirin,1191,palpitations,048,unknown,40-64,female,1,601482
+aspirin,1191,drug ineffective,048,unknown,40-64,female,1,601482
+aspirin,1191,drug ineffective,unknown,unknown,65+,male,1,601482
+aspirin,1191,neuropathy peripheral,048,unknown,40-64,male,1,601482
+aspirin,1191,muscle spasms,048,unknown,40-64,male,1,601482
+aspirin,1191,myopathy,048,unknown,40-64,male,1,601482
+aspirin,1191,sleep disorder,048,unknown,40-64,male,1,601482
+aspirin,1191,blood glucose increased,048,unknown,40-64,male,1,601482
+lisinopril,29046,drug hypersensitivity,unknown,unknown,40-64,female,1,316169
+lisinopril,29046,oedema peripheral,unknown,unknown,65+,female,1,316169
+lisinopril,29046,fluid retention,unknown,unknown,65+,female,1,316169
+lisinopril,29046,pulmonary embolism,048,unknown,65+,male,1,316169
+lisinopril,29046,anaemia,048,unknown,65+,male,1,316169
+lisinopril,29046,fatigue,048,unknown,unknown,male,1,316169
+lisinopril,29046,insomnia,048,unknown,unknown,male,1,316169
+lisinopril,29046,hypertension,048,unknown,40-64,male,1,316169
+lisinopril,29046,night sweats,048,unknown,40-64,male,1,316169
+lisinopril,29046,panic attack,048,unknown,40-64,male,1,316169
+lisinopril,29046,hyperlipidaemia,048,unknown,40-64,male,1,316169
+lisinopril,29046,insomnia,048,unknown,40-64,male,1,316169
+lisinopril,29046,influenza,048,unknown,65+,male,1,316169
+lisinopril,29046,pneumonia,048,unknown,65+,male,1,316169
+lisinopril,29046,dehydration,unknown,unknown,65+,male,1,316169
+lisinopril,29046,hair growth abnormal,048,unknown,40-64,female,1,316169
+lisinopril,29046,skin disorder,048,unknown,40-64,female,1,316169
+lisinopril,29046,alopecia,048,unknown,40-64,female,1,316169
+lisinopril,29046,grand mal convulsion,048,unknown,40-64,male,1,316169
+lisinopril,29046,vomiting,048,unknown,40-64,male,1,316169
+lisinopril,29046,amnesia,048,unknown,40-64,male,1,316169
+lisinopril,29046,balance disorder,unknown,unknown,unknown,male,1,316169
+lisinopril,29046,blood count abnormal,unknown,unknown,40-64,male,1,316169
+lisinopril,29046,platelet count decreased,unknown,unknown,40-64,male,1,316169
+lisinopril,29046,nausea,048,unknown,unknown,unknown,1,316169
+lisinopril,29046,vomiting,048,unknown,unknown,unknown,1,316169
+lisinopril,29046,abdominal pain upper,048,unknown,unknown,unknown,1,316169
+lisinopril,29046,fatigue,048,unknown,unknown,unknown,1,316169
+lisinopril,29046,haemoglobin decreased,048,unknown,unknown,unknown,1,316169
+lisinopril,29046,anaphylactic reaction,015,unknown,18-39,female,1,316169
+lisinopril,29046,metrorrhagia,015,unknown,18-39,female,1,316169
+lisinopril,29046,dizziness,015,unknown,18-39,female,1,316169
+lisinopril,29046,convulsion,048,unknown,40-64,male,1,316169
+lisinopril,29046,alcohol detoxification,048,unknown,40-64,male,1,316169
+lisinopril,29046,loss of consciousness,048,unknown,40-64,male,1,316169
+lisinopril,29046,alcohol withdrawal syndrome,048,unknown,40-64,male,1,316169
+lisinopril,29046,renal failure acute,048,unknown,40-64,male,1,316169
+lisinopril,29046,fatigue,048,unknown,65+,male,1,316169
+lisinopril,29046,stomatitis,048,unknown,65+,male,1,316169
+lisinopril,29046,glaucoma,048,unknown,65+,female,1,316169
+lisinopril,29046,cataract,048,unknown,65+,female,1,316169
+lisinopril,29046,vitamin d decreased,048,unknown,65+,female,1,316169
+lisinopril,29046,arthropathy,048,unknown,65+,female,1,316169
+lisinopril,29046,dry mouth,048,unknown,40-64,female,1,316169
+lisinopril,29046,dry eye,048,unknown,40-64,female,1,316169
+lisinopril,29046,retinal detachment,unknown,unknown,unknown,male,1,316169
+lisinopril,29046,visual field defect,unknown,unknown,unknown,male,1,316169
+lisinopril,29046,fibromyalgia,unknown,unknown,unknown,male,1,316169
+lisinopril,29046,eye disorder,unknown,unknown,unknown,male,1,316169
+lisinopril,29046,abdominal pain upper,048,unknown,65+,male,1,316169
+lisinopril,29046,headache,048,unknown,65+,male,1,316169
+lisinopril,29046,dizziness,048,unknown,65+,male,1,316169
+lisinopril,29046,cerebrovascular accident,048,unknown,65+,male,1,316169
+lisinopril,29046,withdrawal syndrome,048,unknown,65+,male,1,316169
+lisinopril,29046,drug ineffective,unknown,unknown,65+,male,1,316169
+lisinopril,29046,hepatic enzyme increased,048,unknown,unknown,unknown,1,316169
+lisinopril,29046,white blood cell count increased,048,unknown,65+,male,1,316169
+lisinopril,29046,contusion,048,unknown,65+,male,1,316169
+lisinopril,29046,diarrhoea,048,unknown,40-64,male,1,316169
+lisinopril,29046,respiratory tract congestion,048,unknown,unknown,female,1,316169
+lisinopril,29046,blood pressure decreased,unknown,unknown,65+,female,1,316169
+lisinopril,29046,headache,unknown,unknown,65+,female,1,316169
+lisinopril,29046,visual impairment,unknown,unknown,65+,female,1,316169
+lisinopril,29046,type 2 diabetes mellitus,unknown,unknown,40-64,female,1,316169
+lisinopril,29046,chest pain,unknown,unknown,40-64,male,1,316169
+lisinopril,29046,abdominal pain,unknown,unknown,40-64,male,1,316169
+lisinopril,29046,scleroderma,unknown,unknown,40-64,male,1,316169
+lisinopril,29046,dyspnoea,unknown,unknown,40-64,male,1,316169
+lisinopril,29046,abdominal distension,unknown,unknown,40-64,male,1,316169
+lisinopril,29046,nasal congestion,048,unknown,65+,female,1,316169
+lisinopril,29046,constipation,048,unknown,65+,female,1,316169
+lisinopril,29046,spondylitis,048,unknown,65+,female,1,316169
+lisinopril,29046,weight increased,048,unknown,65+,female,1,316169
+lisinopril,29046,circulatory collapse,065,unknown,65+,female,1,316169
+enalapril,3827,erection increased,048,unknown,40-64,male,1,60295
+enalapril,3827,transfusion,048,unknown,unknown,male,1,60295
+enalapril,3827,hyponatraemia,058,unknown,40-64,female,1,60295
+enalapril,3827,dyspnoea,058,unknown,40-64,female,1,60295
+enalapril,3827,pyrexia,058,unknown,40-64,female,1,60295
+enalapril,3827,pancreatitis,058,unknown,40-64,female,1,60295
+enalapril,3827,influenza,058,unknown,40-64,female,1,60295
+enalapril,3827,pneumonia,058,unknown,40-64,female,1,60295
+enalapril,3827,diabetes mellitus,030,unknown,40-64,male,1,60295
+enalapril,3827,gait disturbance,030,unknown,40-64,male,1,60295
+enalapril,3827,anaemia,030,unknown,40-64,male,1,60295
+enalapril,3827,blood triglycerides abnormal,030,unknown,40-64,male,1,60295
+enalapril,3827,muscular weakness,030,unknown,40-64,male,1,60295
+enalapril,3827,blood cholesterol abnormal,030,unknown,40-64,male,1,60295
+enalapril,3827,lower gastrointestinal haemorrhage,048,unknown,unknown,unknown,1,60295
+enalapril,3827,facial bones fracture,unknown,unknown,40-64,male,1,60295
+enalapril,3827,syncope,unknown,unknown,40-64,male,1,60295
+enalapril,3827,neutropenia,unknown,unknown,40-64,male,1,60295
+enalapril,3827,pyrexia,unknown,unknown,40-64,male,1,60295
+enalapril,3827,cardiac stress test abnormal,048,unknown,40-64,female,1,60295
+enalapril,3827,arteriogram coronary abnormal,048,unknown,40-64,female,1,60295
+enalapril,3827,weight decreased,048,unknown,40-64,female,1,60295
+enalapril,3827,white blood cell count increased,048,unknown,65+,male,1,60295
+enalapril,3827,contusion,048,unknown,65+,male,1,60295
+enalapril,3827,death,065,unknown,40-64,male,1,60295
+enalapril,3827,dysuria,048,unknown,65+,male,1,60295
+enalapril,3827,pain,048,unknown,65+,male,1,60295
+enalapril,3827,catheter placement,048,unknown,65+,male,1,60295
+enalapril,3827,bladder pain,048,unknown,65+,male,1,60295
+enalapril,3827,genital pain,048,unknown,65+,male,1,60295
+enalapril,3827,nocturia,048,unknown,65+,male,1,60295
+enalapril,3827,posterior reversible encephalopathy syndrome,unknown,unknown,unknown,female,1,60295
+enalapril,3827,grand mal convulsion,unknown,unknown,unknown,female,1,60295
+enalapril,3827,brain oedema,unknown,unknown,unknown,female,1,60295
+enalapril,3827,blood pressure increased,unknown,unknown,unknown,female,1,60295
+enalapril,3827,proteinuria,042,unknown,18-39,female,1,60295
+enalapril,3827,abortion spontaneous,042,unknown,18-39,female,1,60295
+enalapril,3827,hypertension,042,unknown,18-39,female,1,60295
+enalapril,3827,maternal exposure during pregnancy,042,unknown,18-39,female,1,60295
+enalapril,3827,oesophageal carcinoma,048,unknown,unknown,female,1,60295
+enalapril,3827,unresponsive to stimuli,048,unknown,65+,female,1,60295
+enalapril,3827,circulatory collapse,048,unknown,65+,female,1,60295
+enalapril,3827,liver function test abnormal,048,unknown,65+,female,1,60295
+enalapril,3827,hyponatraemia,048,unknown,65+,female,1,60295
+enalapril,3827,cardiac disorder,unknown,unknown,65+,female,1,60295
+enalapril,3827,visual acuity reduced,unknown,unknown,65+,female,1,60295
+enalapril,3827,eye swelling,unknown,unknown,65+,female,1,60295
+enalapril,3827,off label use,unknown,unknown,65+,female,1,60295
+enalapril,3827,limb injury,unknown,unknown,65+,female,1,60295
+enalapril,3827,blood pressure increased,048,unknown,40-64,male,1,60295
+enalapril,3827,night sweats,048,unknown,unknown,female,1,60295
+enalapril,3827,malaise,048,unknown,unknown,female,1,60295
+enalapril,3827,chest pain,048,unknown,unknown,female,1,60295
+enalapril,3827,headache,048,unknown,unknown,female,1,60295
+enalapril,3827,white blood cell count decreased,048,unknown,unknown,female,1,60295
+enalapril,3827,platelet count decreased,048,unknown,unknown,female,1,60295
+enalapril,3827,rash,unknown,unknown,65+,male,1,60295
+enalapril,3827,skin irritation,unknown,unknown,65+,male,1,60295
+enalapril,3827,death,042,unknown,65+,female,1,60295
+enalapril,3827,drug ineffective,unknown,unknown,65+,female,1,60295
+enalapril,3827,anaemia,unknown,unknown,65+,female,1,60295
+enalapril,3827,diarrhoea,048,unknown,unknown,unknown,1,60295
+enalapril,3827,dizziness,048,unknown,unknown,unknown,1,60295
+enalapril,3827,blood creatinine increased,048,unknown,65+,female,1,60295
+enalapril,3827,blood count abnormal,048,unknown,65+,female,1,60295
+enalapril,3827,hypoaesthesia,048,unknown,65+,female,1,60295
+enalapril,3827,platelet count abnormal,048,unknown,unknown,female,1,60295
+enalapril,3827,vision blurred,048,unknown,18-39,female,1,60295
+enalapril,3827,visual acuity reduced,048,unknown,18-39,female,1,60295
+enalapril,3827,extrapulmonary tuberculosis,065,unknown,18-39,male,1,60295
+enalapril,3827,oral candidiasis,065,unknown,18-39,male,1,60295
+enalapril,3827,fall,048,unknown,40-64,female,1,60295
+enalapril,3827,loss of consciousness,048,unknown,40-64,female,1,60295
+enalapril,3827,rhabdomyolysis,048,unknown,40-64,female,1,60295
+enalapril,3827,diarrhoea haemorrhagic,048,unknown,40-64,male,1,60295
+enalapril,3827,mesenteric artery thrombosis,048,unknown,40-64,male,1,60295
+enalapril,3827,cardiac ablation,048,unknown,40-64,male,1,60295
+enalapril,3827,gastrointestinal haemorrhage,048,unknown,40-64,male,1,60295
+enalapril,3827,diabetes mellitus,048,unknown,unknown,male,1,60295
+enalapril,3827,kidney duplex,064,unknown,unknown,male,1,60295
+enalapril,3827,congenital hearing disorder,064,unknown,unknown,male,1,60295
+enalapril,3827,foetal exposure during pregnancy,064,unknown,unknown,male,1,60295
+enalapril,3827,congenital choroid plexus cyst,064,unknown,unknown,male,1,60295
+enalapril,3827,supernumerary nipple,064,unknown,unknown,male,1,60295
+ramipril,35296,subdural haematoma,065,unknown,65+,male,1,127606
+ramipril,35296,atrial fibrillation,048,unknown,unknown,female,1,127606
+ramipril,35296,musculoskeletal stiffness,065,unknown,65+,female,1,127606
+ramipril,35296,myalgia,065,unknown,65+,female,1,127606
+ramipril,35296,flatulence,048,unknown,unknown,male,1,127606
+ramipril,35296,abdominal distension,048,unknown,unknown,male,1,127606
+ramipril,35296,diarrhoea,048,unknown,unknown,male,1,127606
+ramipril,35296,metastases to bone,058,unknown,unknown,female,1,127606
+ramipril,35296,osteonecrosis of jaw,058,unknown,unknown,female,1,127606
+ramipril,35296,skin discolouration,unknown,unknown,65+,male,1,127606
+ramipril,35296,rash,unknown,unknown,65+,male,1,127606
+ramipril,35296,anxiety,048,unknown,40-64,male,1,127606
+ramipril,35296,malaise,048,unknown,40-64,male,1,127606
+ramipril,35296,tachycardia,048,unknown,40-64,male,1,127606
+ramipril,35296,muscle contractions involuntary,048,unknown,40-64,male,1,127606
+ramipril,35296,blood pressure increased,048,unknown,40-64,male,1,127606
+ramipril,35296,norepinephrine increased,048,unknown,40-64,male,1,127606
+ramipril,35296,angioedema,048,unknown,65+,female,1,127606
+ramipril,35296,metabolic acidosis,048,unknown,65+,female,1,127606
+ramipril,35296,dyspnoea,048,unknown,65+,female,1,127606
+ramipril,35296,drug ineffective,048,unknown,65+,female,1,127606
+ramipril,35296,myalgia,048,unknown,65+,male,1,127606
+ramipril,35296,muscular weakness,048,unknown,65+,male,1,127606
+ramipril,35296,fall,048,unknown,65+,male,1,127606
+ramipril,35296,blood sodium decreased,048,unknown,65+,male,1,127606
+ramipril,35296,lower respiratory tract infection,unknown,unknown,65+,female,1,127606
+ramipril,35296,pneumonia,unknown,unknown,65+,female,1,127606
+ramipril,35296,upper gastrointestinal haemorrhage,048,unknown,65+,male,1,127606
+ramipril,35296,muscle spasms,048,unknown,40-64,female,1,127606
+ramipril,35296,muscle twitching,048,unknown,40-64,female,1,127606
+ramipril,35296,diarrhoea,048,unknown,40-64,female,1,127606
+ramipril,35296,dizziness,048,unknown,40-64,female,1,127606
+ramipril,35296,feeling abnormal,048,unknown,40-64,female,1,127606
+ramipril,35296,cardiac arrest,unknown,unknown,40-64,male,1,127606
+ramipril,35296,paraesthesia oral,unknown,unknown,40-64,male,1,127606
+ramipril,35296,muscle spasms,unknown,unknown,40-64,male,1,127606
+ramipril,35296,depressed mood,unknown,unknown,40-64,male,1,127606
+ramipril,35296,anxiety,unknown,unknown,40-64,male,1,127606
+ramipril,35296,atrial flutter,042,unknown,65+,female,1,127606
+ramipril,35296,retinal vein thrombosis,042,unknown,40-64,female,1,127606
+ramipril,35296,macular oedema,042,unknown,40-64,female,1,127606
+ramipril,35296,retinal artery thrombosis,042,unknown,40-64,female,1,127606
+ramipril,35296,incorrect drug administration duration,042,unknown,40-64,female,1,127606
+ramipril,35296,chillblains,048,unknown,65+,female,1,127606
+ramipril,35296,pain in extremity,048,unknown,65+,female,1,127606
+ramipril,35296,oedema peripheral,048,unknown,65+,female,1,127606
+ramipril,35296,ulcer haemorrhage,065,unknown,40-64,female,1,127606
+ramipril,35296,drug interaction,065,unknown,40-64,female,1,127606
+ramipril,35296,nightmare,unknown,unknown,unknown,male,1,127606
+ramipril,35296,arthralgia,unknown,unknown,unknown,male,1,127606
+ramipril,35296,trigeminal palsy,048,unknown,40-64,male,1,127606
+ramipril,35296,urinary retention,unknown,unknown,18-39,female,1,127606
+ramipril,35296,wound dehiscence,unknown,unknown,18-39,female,1,127606
+ramipril,35296,myelodysplastic syndrome,048,unknown,65+,male,1,127606
+ramipril,35296,portal vein thrombosis,unknown,unknown,65+,male,1,127606
+ramipril,35296,hepatorenal syndrome,unknown,unknown,65+,male,1,127606
+ramipril,35296,hepatic encephalopathy,unknown,unknown,65+,male,1,127606
+ramipril,35296,hypoglycaemia,unknown,unknown,65+,male,1,127606
+ramipril,35296,disorientation,unknown,unknown,65+,male,1,127606
+ramipril,35296,somnolence,unknown,unknown,65+,male,1,127606
+ramipril,35296,renal failure acute,048,unknown,65+,male,1,127606
+ramipril,35296,urticaria,unknown,unknown,40-64,female,1,127606
+ramipril,35296,bronchospasm,unknown,unknown,40-64,female,1,127606
+ramipril,35296,formication,048,unknown,40-64,male,1,127606
+ramipril,35296,presyncope,048,unknown,40-64,male,1,127606
+ramipril,35296,vertigo,048,unknown,40-64,male,1,127606
+ramipril,35296,orthostatic hypotension,048,unknown,40-64,male,1,127606
+ramipril,35296,loss of consciousness,048,unknown,40-64,male,1,127606
+ramipril,35296,hypertension,030,unknown,unknown,male,1,127606
+ramipril,35296,haemoglobin decreased,048,unknown,65+,female,1,127606
+ramipril,35296,accidental overdose,048,unknown,65+,male,1,127606
+captopril,1998,blood pressure fluctuation,048,unknown,65+,female,1,10044
+captopril,1998,dyspepsia,048,unknown,65+,female,1,10044
+captopril,1998,allergic cough,048,unknown,65+,female,1,10044
+captopril,1998,headache,048,unknown,65+,female,1,10044
+captopril,1998,malaise,048,unknown,65+,female,1,10044
+captopril,1998,drug hypersensitivity,048,unknown,40-64,female,1,10044
+captopril,1998,drug reaction with eosinophilia and systemic symptoms,048,unknown,40-64,female,1,10044
+captopril,1998,irritability,030,unknown,0-17,male,1,10044
+captopril,1998,crying,030,unknown,0-17,male,1,10044
+captopril,1998,pyrexia,030,unknown,0-17,male,1,10044
+captopril,1998,injection site erythema,030,unknown,0-17,male,1,10044
+captopril,1998,injection site papule,030,unknown,0-17,male,1,10044
+captopril,1998,toxic skin eruption,058,unknown,65+,male,1,10044
+captopril,1998,renal failure,065,unknown,unknown,female,1,10044
+captopril,1998,blindness,065,unknown,unknown,female,1,10044
+captopril,1998,diabetic complication,065,unknown,unknown,female,1,10044
+captopril,1998,blood pressure increased,048,unknown,40-64,male,1,10044
+captopril,1998,diabetes mellitus,048,unknown,40-64,male,1,10044
+captopril,1998,nervousness,048,unknown,40-64,male,1,10044
+captopril,1998,hyperammonaemic encephalopathy,065,unknown,40-64,male,1,10044
+captopril,1998,retinal tear,048,unknown,65+,female,1,10044
+captopril,1998,blindness unilateral,048,unknown,65+,female,1,10044
+captopril,1998,circumstance or information capable of leading to medication error,048,unknown,65+,female,1,10044
+captopril,1998,somnolence,048,unknown,65+,male,1,10044
+captopril,1998,fatigue,048,unknown,65+,male,1,10044
+captopril,1998,mobility decreased,048,unknown,65+,male,1,10044
+captopril,1998,tremor,048,unknown,65+,male,1,10044
+captopril,1998,posturing,048,unknown,65+,male,1,10044
+captopril,1998,neurological decompensation,048,unknown,65+,male,1,10044
+captopril,1998,blood pressure abnormal,048,unknown,65+,male,1,10044
+captopril,1998,constipation,048,unknown,65+,male,1,10044
+captopril,1998,pneumonia,030,unknown,0-17,male,1,10044
+captopril,1998,abdominal pain,048,unknown,65+,male,1,10044
+captopril,1998,middle insomnia,048,unknown,65+,male,1,10044
+captopril,1998,urge incontinence,048,unknown,65+,male,1,10044
+captopril,1998,myocardial infarction,047,unknown,unknown,male,1,10044
+captopril,1998,hepatic neoplasm,047,unknown,unknown,male,1,10044
+captopril,1998,abdominal pain upper,047,unknown,unknown,male,1,10044
+captopril,1998,headache,047,unknown,unknown,male,1,10044
+captopril,1998,headache,065,unknown,40-64,male,1,10044
+captopril,1998,drug intolerance,065,unknown,40-64,male,1,10044
+captopril,1998,loss of consciousness,unknown,unknown,unknown,male,1,10044
+captopril,1998,nephrolithiasis,unknown,unknown,unknown,male,1,10044
+captopril,1998,blood testosterone decreased,unknown,unknown,unknown,male,1,10044
+captopril,1998,fall,unknown,unknown,unknown,male,1,10044
+captopril,1998,depression,unknown,unknown,unknown,male,1,10044
+captopril,1998,blood cortisol decreased,unknown,unknown,unknown,male,1,10044
+captopril,1998,american trypanosomiasis,055,unknown,65+,male,1,10044
+captopril,1998,wheezing,055,unknown,65+,male,1,10044
+captopril,1998,gastritis,055,unknown,65+,male,1,10044
+captopril,1998,haemoglobin decreased,048,unknown,65+,female,1,10044
+captopril,1998,platelet count decreased,048,unknown,65+,female,1,10044
+captopril,1998,hypotension,unknown,unknown,65+,male,1,10044
+captopril,1998,renal failure,unknown,unknown,65+,male,1,10044
+captopril,1998,type ii hypersensitivity,042,unknown,40-64,female,1,10044
+captopril,1998,erectile dysfunction,048,unknown,40-64,male,1,10044
+captopril,1998,palmar plantar erythrodysaesthesia syndrome,042,unknown,40-64,female,1,10044
+captopril,1998,hypertension,048,unknown,40-64,female,1,10044
+perindopril,54552,leukoencephalopathy,058,unknown,65+,female,1,40749
+perindopril,54552,peroneal nerve palsy,058,unknown,65+,female,1,40749
+perindopril,54552,mobility decreased,058,unknown,65+,female,1,40749
+perindopril,54552,sensory loss,058,unknown,65+,female,1,40749
+perindopril,54552,grand mal convulsion,058,unknown,65+,female,1,40749
+perindopril,54552,muscular weakness,058,unknown,65+,female,1,40749
+perindopril,54552,malaise,048,unknown,65+,male,1,40749
+perindopril,54552,abdominal pain,042,unknown,40-64,male,1,40749
+perindopril,54552,thrombocytopenia,048,unknown,65+,male,1,40749
+perindopril,54552,haematological malignancy,048,unknown,65+,male,1,40749
+perindopril,54552,inflammatory marker increased,048,unknown,unknown,male,1,40749
+perindopril,54552,haematuria,048,unknown,unknown,male,1,40749
+perindopril,54552,renal failure,048,unknown,65+,female,1,40749
+perindopril,54552,hepatic failure,048,unknown,65+,female,1,40749
+perindopril,54552,cough,unknown,unknown,40-64,male,1,40749
+perindopril,54552,hypoaesthesia,unknown,unknown,40-64,male,1,40749
+perindopril,54552,paraesthesia,unknown,unknown,40-64,male,1,40749
+perindopril,54552,muscular weakness,unknown,unknown,40-64,male,1,40749
+perindopril,54552,sleep disorder,unknown,unknown,40-64,male,1,40749
+perindopril,54552,diarrhoea,unknown,unknown,65+,female,1,40749
+perindopril,54552,abdominal pain,unknown,unknown,65+,female,1,40749
+perindopril,54552,myalgia,048,unknown,40-64,male,1,40749
+perindopril,54552,pneumocystis jirovecii pneumonia,unknown,unknown,40-64,male,1,40749
+perindopril,54552,influenza,unknown,unknown,40-64,male,1,40749
+perindopril,54552,tongue neoplasm malignant stage unspecified,048,unknown,65+,male,1,40749
+perindopril,54552,renal failure,048,unknown,unknown,male,1,40749
+perindopril,54552,drug interaction,048,unknown,unknown,male,1,40749
+perindopril,54552,rhabdomyolysis,048,unknown,unknown,male,1,40749
+perindopril,54552,hepatic failure,048,unknown,unknown,male,1,40749
+perindopril,54552,transaminases increased,065,unknown,65+,male,1,40749
+perindopril,54552,weight decreased,065,unknown,65+,male,1,40749
+perindopril,54552,pulmonary embolism,048,unknown,65+,female,1,40749
+perindopril,54552,overdose,048,unknown,65+,female,1,40749
+perindopril,54552,somnolence,048,unknown,65+,female,1,40749
+perindopril,54552,orthostatic hypotension,048,unknown,65+,female,1,40749
+perindopril,54552,fall,048,unknown,65+,female,1,40749
+perindopril,54552,oxygen saturation decreased,048,unknown,65+,female,1,40749
+perindopril,54552,aspartate aminotransferase increased,048,unknown,65+,male,1,40749
+perindopril,54552,alanine aminotransferase increased,048,unknown,65+,male,1,40749
+perindopril,54552,rhabdomyolysis,048,unknown,65+,female,1,40749
+perindopril,54552,visual acuity reduced,048,unknown,65+,female,1,40749
+perindopril,54552,drug interaction,065,unknown,65+,female,1,40749
+perindopril,54552,tongue oedema,065,unknown,65+,female,1,40749
+perindopril,54552,lip oedema,065,unknown,65+,female,1,40749
+perindopril,54552,pain,065,unknown,65+,female,1,40749
+perindopril,54552,dyspnoea,065,unknown,65+,female,1,40749
+perindopril,54552,renal failure acute,unknown,unknown,40-64,male,1,40749
+perindopril,54552,systemic lupus erythematosus,unknown,unknown,40-64,male,1,40749
+perindopril,54552,iga nephropathy,unknown,unknown,40-64,male,1,40749
+perindopril,54552,hypertension,unknown,unknown,40-64,male,1,40749
+perindopril,54552,mesangioproliferative glomerulonephritis,unknown,unknown,40-64,male,1,40749
+perindopril,54552,kidney transplant rejection,042,unknown,unknown,unknown,1,40749
+perindopril,54552,renal impairment,042,unknown,unknown,unknown,1,40749
+perindopril,54552,anaemia,058,unknown,40-64,female,1,40749
+perindopril,54552,pneumonia,058,unknown,40-64,female,1,40749
+perindopril,54552,renal failure acute,058,unknown,40-64,female,1,40749
+perindopril,54552,blood creatinine increased,058,unknown,40-64,female,1,40749
+perindopril,54552,thrombocytopenia,058,unknown,40-64,female,1,40749
